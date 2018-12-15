@@ -50,11 +50,11 @@ Source: https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf
 <img src="https://farm5.staticflickr.com/4505/24079519258_ab8a80f7ed_o.png" width="769" height="229" alt="Double Spending">
 <p>
 
-As Vinat Gupta writes in Harvard Business Business Review of Marcg 6 2017,
+As Vinay Gupta writes in Harvard Business Business Review of Marcg 6 2017,
 # The Promise of Blockchain is a World without Middlemen.
 
-<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" wid
-th="1041" height="53" alt="blueband">
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
+
 <img src="https://hyperledger.org/wp-content/uploads/2018/07/Hyperledger_Greenhouse-59-2.png">
 
 <img src="https://www.hyperledger.org/wp-content/uploads/2018/10/Hyperledger-Fabric.png">
