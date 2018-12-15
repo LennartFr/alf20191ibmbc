@@ -1,5 +1,7 @@
 # alf20191ibmbc
 
+<img src="https://hyperledger.org/wp-content/uploads/2018/07/Hyperledger_Greenhouse-59-2.png">
+
 <img src="https://www.hyperledger.org/wp-content/uploads/2018/10/Hyperledger-Fabric.png">
 
 https://www.hyperledger.org/projects/fabric
