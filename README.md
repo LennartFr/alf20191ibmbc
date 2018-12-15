@@ -60,14 +60,16 @@ As Vinay Gupta writes in Harvard Business Business Review of Marcg 6 2017,
 
 https://www.hyperledger.org/projects/fabric
 
-<img src="https://farm5.staticflickr.com/4505/24079519258_ab8a80f7ed_o.png" width="769" height="229" alt="Double Spending">
-<p>
+# Where can I find the Hyperledger Fabric source code?:
+
+<a href="https://github.com/hyperledger">Hyperledger Source Code on Github</a>
+
+<a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/">Readthedocs.is A Blockchain Platform for the Enterprise</a>
 
 # Blockchain Use Cases
 https://www.ibm.com/blockchain/use-cases/
 
 https://wiki.hyperledger.org/groups/requirements/use-case-inventory
-
 
 # IBM Blockchain Developer Patterns
 https://developer.ibm.com/patterns/category/blockchain/
