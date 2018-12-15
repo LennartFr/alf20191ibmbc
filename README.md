@@ -26,7 +26,8 @@ which combined provide a trustworthy service to a group of nodes that do not ful
 Christian Cachin <a href="https://www.ibm.com/blogs/research/2017/10/resilient-consensus-protocols-blockchains/">Resilient Consensus Protocols for Blockchains</a>
 <p>
 Source: https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf
-
+<img src="https://farm5.staticflickr.com/4505/24079519258_ab8a80f7ed_o.png" width="769" height="229" alt="Double Spending">
+<p>
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
@@ -35,6 +36,9 @@ Source: https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf
 <img src="https://www.hyperledger.org/wp-content/uploads/2018/10/Hyperledger-Fabric.png">
 
 https://www.hyperledger.org/projects/fabric
+
+<img src="https://farm5.staticflickr.com/4505/24079519258_ab8a80f7ed_o.png" width="769" height="229" alt="Double Spending">
+<p>
 
 # Blockchain Use Cases
 https://www.ibm.com/blockchain/use-cases/
@@ -47,3 +51,5 @@ IBM Blockchain https://www.ibm.com/blockchain IBM Blockchain - Enterprise Blockc
 https://www.ibm.com/blockchain/platform
 
 Start developing with the IBM Blockchain Platform VSCode Extension (updated) https://www.youtube.com/watch?v=0NkGGIUPhqk
+<img src="https://farm5.staticflickr.com/4505/24079519258_ab8a80f7ed_o.png" width="769" height="229" alt="Double Spending">
+<p>
