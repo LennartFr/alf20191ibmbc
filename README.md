@@ -47,8 +47,7 @@ which combined provide a trustworthy service to a group of nodes that do not ful
 Christian Cachin <a href="https://www.ibm.com/blogs/research/2017/10/resilient-consensus-protocols-blockchains/">Resilient Consensus Protocols for Blockchains</a>
 <p>
 Source: https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf
-<img src="https://farm5.staticflickr.com/4505/24079519258_ab8a80f7ed_o.png" width="769" height="229" alt="Double Spending">
-<p>
+
 
 As Vinay Gupta writes in Harvard Business Business Review of Marcg 6 2017,
 # The Promise of Blockchain is a World without Middlemen.
