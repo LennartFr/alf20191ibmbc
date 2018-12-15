@@ -1,7 +1,7 @@
 # alf20191ibmbc
 
 # Doubleentry bookkeeping
-## A revolution: From Double-Entry Bookkeeping to the Blockchain Distributed Ledger
+## A revolution: From Double Entry Bookkeeping to the Blockchain Distributed Ledger
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Pacioli.jpg/440px-Pacioli.jpg">
 <p>
