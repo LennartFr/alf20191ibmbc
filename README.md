@@ -43,6 +43,9 @@ https://www.hyperledger.org/projects/fabric
 # Blockchain Use Cases
 https://www.ibm.com/blockchain/use-cases/
 
+https://wiki.hyperledger.org/groups/requirements/use-case-inventory
+
+
 # IBM Blockchain Developer Patterns
 https://developer.ibm.com/patterns/category/blockchain/
 
