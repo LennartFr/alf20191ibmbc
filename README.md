@@ -26,8 +26,8 @@ A blockchain database is managed autonomously using a peer-to-peer network and a
 https://en.wikipedia.org/wiki/Blockchain
 <p>
 <i>A blockchain is a decentralized virtual ledger for recording transactions <b>without central authority </b> through a distributed cryptographic protocol. 
-	
-	### Blockchain Distributed Ledger  
+
+### Blockchain Distributed Ledger  
   
 <img src="https://www.ibm.com/blogs/internet-of-things/wp-content/uploads/2017/05/2-1.jpg">
 <p> 
