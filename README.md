@@ -1,6 +1,7 @@
-# alf20191ibmbc
 
-# Doubled Entry Bookkeeping
+# The background
+
+## Doubled Entry Bookkeeping
 ## A revolution: From Double Entry Bookkeeping to the Blockchain Distributed Ledger
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Pacioli.jpg/440px-Pacioli.jpg">
@@ -12,7 +13,7 @@ He is referred to as "The Father of Accounting and Bookkeeping" in Europe and he
   
 
 
-# How did it all start?
+# Satoshi Nakamoto's revolution in October 2008.
  
 October 2008 It all started with Satoshi Nakamoto and his paper [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf) which addressed a key problem in electronic commerce:
 
