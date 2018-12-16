@@ -87,7 +87,7 @@ Start developing with the IBM Blockchain Platform VSCode Extension (updated) htt
 
 
 
-# Section Three, Let's take a look at a simple Hyperledger Fabric business network.
+# Let's take a look at a simple Hyperledger Fabric business network.
 
 <img src="https://github.com/LennartFr/hyperledgerlab2018/blob/master/Screen%20Shot%202018-10-12%20at%2013.05.55.png">
 
