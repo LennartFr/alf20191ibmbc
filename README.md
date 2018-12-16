@@ -91,8 +91,6 @@ Start developing with the IBM Blockchain Platform VSCode Extension (updated) htt
 
 <img src="https://github.com/LennartFr/hyperledgerlab2018/blob/master/Screen%20Shot%202018-10-12%20at%2013.05.55.png">
 
-<img src="https://github.com/LennartFr/hyperlab20181018/blob/master/Screen%20Shot%202018-10-20%20at%2013.47.54.png">
-
 <img src="https://farm5.staticflickr.com/4458/37771305586_6bf75bc2af_o.png" width="853" height="482" alt="hyperledger architecture">
 
 ....your first network (BYFN) scenario provisions a sample Hyperledger Fabric network 
