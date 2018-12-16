@@ -196,6 +196,7 @@ https://hyperledger-fabric.readthedocs.io/en/release-1.3/chaincode.html#chaincod
 
 https://www.ibm.com/blockchain/use-cases/
 
+#Lab 0: https://ibm-blockchain.github.io/develop/tutorials/playground-tutorial
 ## Lab 1: Hyperledger Composer  https://github.com/LennartFr/hyperledgerlab2018#-hands-on-lab-
 ## Lab 2: Decentralized Energy Composer: https://github.com/IBM/Decentralized-Energy-Composer 
 ## Lab 3: IBM Blockchain Platform
