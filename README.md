@@ -190,7 +190,7 @@ https://hyperledger-fabric.readthedocs.io/en/release-1.3/chaincode.html#chaincod
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-# Section Four, let's begin devloping our app!
+# Let's begin devloping our app!
 
 ## Use Cases
 
@@ -215,7 +215,7 @@ https://vehicle-manufacture-basilar-fenestration.mybluemix.net/tutorial
 
 <img src="https://github.com/LennartFr/hyperlab20181018/blob/master/ibmcloudbc-1.png">
 
-# Section Five, where do we go from here?
+# Where do we go from here?
 
 1. Go through the IBM Code Patterns for Blockchain. https://developer.ibm.com/patterns/category/blockchain/
 1. Create more advanced applications from the list of IBM Use Cases 
