@@ -6,6 +6,8 @@ The attendees are supposed do have basic basic information about Satoshi Nakamot
 
 Hyperledger Fabric https://hyperledger-fabric.readthedocs.io/en/release-1.3/ ,  https://hyperledger-fabric.readthedocs.io/en/release-1.3/tutorials.html, which is the key component of the IBM Blockchain implementation.
 
+We have included background information here: https://github.com/LennartFr/alf20191ibmbc/blob/master/background.html
+
  
 
 
