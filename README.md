@@ -10,7 +10,7 @@ https://hyperledger-fabric.readthedocs.io/en/release-1.3/ and here  https://hype
 
 We have included background information here: https://github.com/LennartFr/alf20191ibmbc/blob/master/background.html
 
- 
+Events that make use of this repo are listed here: https://github.com/LennartFr/alf20191ibmbc/blob/master/events.html 
 
 
 
