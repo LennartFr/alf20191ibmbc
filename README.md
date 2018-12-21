@@ -14,6 +14,8 @@ Events that make use of this repo are listed here: https://github.com/LennartFr/
 
 link here: https:../workshop.md ./workshop.md
 
+[Contribution guidelines for this project](/workshop.md)
+
 
 
 
