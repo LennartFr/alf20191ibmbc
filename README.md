@@ -6,7 +6,7 @@ This workshop is built around the IBM code patterns for Blockchain https://devel
 
 To take this workshop you are supposed do have basic understanding of Satoshi Nakamoto's key paper from 2008, Bitcoin: A Peer-to-Peer Electronic Cash System https://bitcoin.org/bitcoin.pdf as well as the open source Hyperledger
 Fabric. You will find the Fabric source code here: https://www.hyperledger.org/projects/fabric and documentation here: 
-https://hyperledger-fabric.readthedocs.io/en/release-1.3/ and here  https://hyperledger-fabric.readthedocs.io/en/release-1.3/tutorials.html. 
+https://hyperledger-fabric.readthedocs.io/en/release-1.3/ and here  https://hyperledger-fabric.readthedocs.io/en/release-1.3/tutorials.html. A description of the Hyperledger Fabric architecture appears here: https://hyperledger-fabric.readthedocs.io/en/release-1.3/architecture.html
 
 We have included background information here: https://github.com/LennartFr/alf20191ibmbc/blob/master/background.html
 
