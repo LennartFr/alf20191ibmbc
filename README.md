@@ -8,9 +8,9 @@ To take this workshop you are supposed do have basic understanding of Satoshi Na
 Fabric. You will find the Fabric source code here: https://www.hyperledger.org/projects/fabric and documentation here: 
 https://hyperledger-fabric.readthedocs.io/en/release-1.3/ and here  https://hyperledger-fabric.readthedocs.io/en/release-1.3/tutorials.html. A description of the Hyperledger Fabric architecture appears here: https://hyperledger-fabric.readthedocs.io/en/release-1.3/architecture.html
 
-We have included background information here: https://github.com/LennartFr/alf20191ibmbc/blob/master/background.html
+We have included background information here: https://github.com/LennartFr/alf20191ibmbc/blob/master/background.md
 
-Events that make use of this repo are listed here: https://github.com/LennartFr/alf20191ibmbc/blob/master/events.html 
+Events that make use of this repo are listed here: https://github.com/LennartFr/alf20191ibmbc/blob/master/events.md 
 
 [Workshop](/workshop.md)
 
