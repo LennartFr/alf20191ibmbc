@@ -12,7 +12,7 @@ We have included background information here: https://github.com/LennartFr/alf20
 
 Events that make use of this repo are listed here: https://github.com/LennartFr/alf20191ibmbc/blob/master/events.html 
 
-link here: https://workshop.md
+link here: https:../workshop.md ./workshop.md
 
 
 
