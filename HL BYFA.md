@@ -7,4 +7,6 @@ curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0
 
 byfn.sh in fabric-samples/first-network/byfn.sh
 
+startfabric.sh i /fabcar
+
 
