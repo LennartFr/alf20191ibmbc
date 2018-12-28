@@ -9,4 +9,10 @@ byfn.sh in fabric-samples/first-network/byfn.sh
 
 startfabric.sh i /fabcar
 
+docker kill $(docker ps -q) // Raheel
+
+docker rm $(docker ps -aq) // Raheel
+
+docker rmi $(docker images dev-* -q) // Rhaheel
+
 
