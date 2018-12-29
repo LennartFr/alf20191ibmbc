@@ -33,6 +33,8 @@ byfn.sh in fabric-samples/first-network/byfn.sh up  brings up network
 
 startfabric.sh in /fabcar
 
+nvm use node
+
 docker kill $(docker ps -q) // Raheel
 
 docker rm $(docker ps -aq) // Raheel
