@@ -1,13 +1,22 @@
 
+https://hyperledger-fabric.readthedocs.io/en/release-1.3/install.html#install-samples-binaries-and-docker-images
+curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0  creates directory fabric-samples
+The supplied commands in this documentation MUST be run from your first-network sub-directory of the fabric-samples repository clone
+
+Run byfn.sh up in first-network
+
+
 # [Prerequisites](https://hyperledger-fabric.readthedocs.io/en/release-1.3/prereqs.html)
 # [Building your first Network](https://hyperledger-fabric.readthedocs.io/en/release-1.3/build_network.html)
 # [Install Sample, Binaries and Docker Images](https://hyperledger-fabric.readthedocs.io/en/release-1.3/install.html)
 curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0
 # [Writing your first Application](https://hyperledger-fabric.readthedocs.io/en/release-1.3/write_first_app.html)
 
-byfn.sh in fabric-samples/first-network/byfn.sh
+byfn.sh in fabric-samples/first-network/byfn.sh up  brings up network
 
-startfabric.sh i /fabcar
+
+
+startfabric.sh in /fabcar
 
 docker kill $(docker ps -q) // Raheel
 
