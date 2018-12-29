@@ -5,6 +5,21 @@ The supplied commands in this documentation MUST be run from your first-network 
 
 Run byfn.sh up in first-network
 
+./startFabric.sh
+
+./npm install
+
+Start by installing required packages run 'npm install'
+
+Then run 'node enrollAdmin.js', then 'node registerUser'
+
+The 'node invoke.js' will fail until it has been updated with valid arguments
+
+The 'node query.js' may be run at anytime once the user has been registered
+
+
+
+
 
 # [Prerequisites](https://hyperledger-fabric.readthedocs.io/en/release-1.3/prereqs.html)
 # [Building your first Network](https://hyperledger-fabric.readthedocs.io/en/release-1.3/build_network.html)
