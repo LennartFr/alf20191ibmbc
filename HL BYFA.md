@@ -1,5 +1,6 @@
 
 https://hyperledger-fabric.readthedocs.io/en/release-1.3/install.html#install-samples-binaries-and-docker-images
+
 curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0  creates directory fabric-samples
 The supplied commands in this documentation MUST be run from your first-network sub-directory of the fabric-samples repository clone
 
