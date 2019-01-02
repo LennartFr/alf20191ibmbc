@@ -50,33 +50,33 @@ Let's run this script: ./byfn.sh generate. Take a look at the output from the s
 
 ~~~~
 1. generate certificates using cryptogen tool
-1. generate Orderer Genesis Block
-1. Generate channel configuration transaction 'channel.txt'
-1. Generate anchor peer update for Org1MSP
-1. Generate anchor peer update for Org2MSP
+2. generate Orderer Genesis Block
+3. Generate channel configuration transaction 'channel.txt'
+4. Generate anchor peer update for Org1MSP
+5. Generate anchor peer update for Org2MSP
 ~~~~
 
-Querying chaincode on peer0.org1…
+Some of the output is as follows:
 
-Querying on peer0.org1 on channel 'mychannel'… 
-
-Attempting to Query peer0.org1 …3 secs
-
-+ peer chaincode query -C mychannel -n mycc -c '{"Args":["query","a"]}'
-
-+ res=0
-
-+ set +x
-
-100
+~~~~
+1. Querying chaincode on peer0.org1…
+2. Querying on peer0.org1 on channel 'mychannel'… 
+3. Attempting to Query peer0.org1 …3 secs
+4. + peer chaincode query -C mychannel -n mycc -c '{"Args":["query","a"]}'
+5. + res=0
+6. + set +x
+7. 100
+~~~~
 
 Followed by byfn.sh up which brings up the Hyperledger artefacts on your laptop. Please check out the voluminous script output.
 
+~~~~
 1. create mychannel
-1. having all peers join the channel
-1. peer channel join -b mychannel.block. Endorser and orderer connections initialized
-1. Follow the execution of the script.
-1. Followed by ./byfn.sh down 
+2. having all peers join the channel
+3. peer channel join -b mychannel.block. Endorser and orderer connections initialized
+4. Follow the execution of the script.
+5. Followed by ./byfn.sh down 
+~~~~
 
 # Step 4 Bringing up and query the Fabric
 
@@ -84,23 +84,28 @@ Followed by byfn.sh up which brings up the Hyperledger artefacts on your laptop.
 
 <img src="https://farm5.staticflickr.com/4523/38243385192_3283c6031a_c.jpg" width="800" height="425" alt="Hyperledger helloworld 2">
 
-
+~~~~
 1. We then do cd to fabric-samples/fabcar
 1. we kill stale containers: docker rm -f $(docker ps -aq) 
 1. and clear cached networks: docker network prune
 1. docker rmi dev-peer0.org1.example.com-fabcar-1.0-5c906e402ed29f20260ae42283216aa75549c571e2e380f3615826365d8269ba
+~~~~
 
 In the fabcar directory we invoke the startFabric.sh script.
 
 The end of the startFabric.sh script instructs us to run the following commands:
+~~~~
 1. npm install. If error: npm rebuild followed by startFabric.sh
 1. node enrollAdmin.js
 1. node registerUser.js
 1. node query.js
-1. Which will give us the output:
+~~~~
 
+Which will give us the output:
+
+~~~~
 Response is [{"Key":"CAR0", "Record":{"colour":"blue","make":"Toyota","model":"Prius","owner":"Tomoko"}},{"Key":"CAR1", "Record":{"colour":"red","make":"Ford","model":"Mustang","owner":"Brad"}},{"Key":"CAR2", "Record":{"colour":"green","make":"Hyundai","model":"Tucson","owner":"Jin Soo"}},{"Key":"CAR3", "Record":{"colour":"yellow","make":"Volkswagen","model":"Passat","owner":"Max"}},{"Key":"CAR4", "Record":{"colour":"black","make":"Tesla","model":"S","owner":"Adriana"}},{"Key":"CAR5", "Record":{"colour":"purple","make":"Peugeot","model":"205","owner":"Michel"}},{"Key":"CAR6", "Record":{"colour":"white","make":"Chery","model":"S22L","owner":"Aarav"}},{"Key":"CAR7", "Record":{"colour":"violet","make":"Fiat","model":"Punto","owner":"Pari"}},{"Key":"CAR8", "Record":{"colour":"indigo","make":"Tata","model":"Nano","owner":"Valeria"}},{"Key":"CAR9", "Record":{"colour":"brown","make":"Holden","model":"Barina","owner":"Shotaro"}}]
-
+~~~~
 
 # Step 5 Changing the Fabcar app to something else
 
