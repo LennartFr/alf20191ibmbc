@@ -3,14 +3,19 @@
 
 # Your first steps on the way to building Hyperledger Fabric applications
 
-Hyperledger Fabric comes with the excellent <a href='https://hyperledger.github.io/composer/latest/installing/installing-index.html">Hyperledger Composer tool </a> that makes easy to quickly come up to speed writing Fabric applications.
+Hyperledger Fabric comes with the excellent <a href="https://hyperledger.github.io/composer/latest/installing/installing-index.html">Hyperledger Composer tool </a> that makes easy to quickly come up to speed writing Fabric applications.
 
-But how do you create your very first Hyperledger Fabric app outside of the warm confines of Composer? Let's take a look at a alternative way by leveraging the Hyperledger sample app on the ReadTheDocs site. It is a simple car application that goes under the name of Fabcar, for "Fabric Car". The app allows us to add and delete cars and their owners from a common ledger. A good starting app that can easily be expanded in many directions.
+But the Composer will not have the same central role in the Hyperledger Fabric architecture that it had in 2018. Which leades to the question of how you create your very first Hyperledger Fabric app outside of the warm confines of Composer?
+
+Let's take a look at an alternative way of getting started by leveraging the Hyperledger sample app on the ReadTheDocs site. 
+
+It is a simple car application that goes under the name of Fabcar, for "Fabric Car". The app has chain code that allows us to add and delete cars and their owners from a common ledger. A good starting app that can easily be expanded in many directions.
+
+So let's get started.
 
 # Step 1: Make sure you have the right pre-reqs.
 
-So let's start with the pre-reqs. There are a fair number of pre-reqs and we need to take our time to make certain that we have them all.
-
+So let's start with the pre-reqs. There are a fair number of pre-reqs and we need to take our time to make certain that we have them all. https://hyperledger-fabric.readthedocs.io/en/release-1.3/prereqs.html#prerequisites
 
 https://hyperledger-fabric.readthedocs.io/en/release-1.3/install.html#install-samples-binaries-and-docker-images
 
@@ -20,15 +25,18 @@ With the pre-reqs in place we are ready to download the Hyperledger Fabric code:
 
 curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0  creates the directory fabric-samples
 
-1. hyperledger/fabric-ca
-1. hyperledger/fabric-zookeeper
-1. hyperledger/fabric-kafka
-1. hyperledger/fabric-couchdb
+1. hyperledger/fabric-ca   https://hyperledger-fabric-ca.readthedocs.io/en/latest/users-guide.html#fabric-ca-user-s-guide
+1. hyperledger/fabric-zookeeper  https://hyperledger-fabric.readthedocs.io/en/release-1.3/kafka.html#bringing-up-a-kafka-based-ordering-service
+1. hyperledger/fabric-kafka https://hyperledger-fabric.readthedocs.io/en/release-1.3/kafka.html#bringing-up-a-kafka-based-ordering-service1. hyperledger/fabric-couchdb
 1. hyperledger/fabric-javaenv
 1. hyperledger/fabric-tools
 1. hyperledger/fabric-ccenv
-1. hyperledger/fabric-orderer
-1. hyperledger/fabric-peer
+1. hyperledger/fabric-orderer  https://hyperledger-fabric.readthedocs.io/en/release-1.1/ordering-service-faq.html#ordering-service-faq
+1. hyperledger/fabric-peer  https://hyperledger-fabric.readthedocs.io/en/release-1.3/peers/peers.html#peers
+
+Let's discuss these component:
+
+1. The fabric-ca is the certificate authority
 
 Hyperledger is advancing quite quickly so the version number may well have changed by the time you see this article.
 The download will take a minute or two. The download will install a directory called fabric-samples. Take time to familiarize yourself with the Hyperledger docker images that you have downloaded.
