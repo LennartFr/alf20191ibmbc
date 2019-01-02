@@ -5,6 +5,8 @@ Hyperledger Fabric comes with the excellent Hyperledger Composer tool that makes
 
 But how do you create your very first Hyperledger Fabric app outside of the warm confines of Composer? Let's take a look at the Hyperledger sample app on the ReadTheDocs site. It is a simple car application that goes under the name of Fabcar, for "Fabric Car". The app allows us to add and delete cars and their owners from a common ledger. A good starting app that can easily be expanded in many directions.
 
+# Step 1: Make sure you have the right pre-reqs.
+
 So let's start with the pre-reqs. There are a fair number of pre-reqs and we need to take our time to make certain that we have them all.
 
 
@@ -14,7 +16,7 @@ https://hyperledger-fabric.readthedocs.io/en/release-1.3/install.html#install-sa
 
 With the pre-reqs in place we are ready to download the Hyperledger Fabric code: curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0
 
-curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0  creates directory fabric-samples
+curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0  creates the directory fabric-samples
 
 hyperledger/fabric-ca
 hyperledger/fabric-zookeeper
