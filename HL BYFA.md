@@ -73,6 +73,8 @@ Followed by byfn.sh up which brings up the Hyperledger artefacts on your laptop.
 
 <img src="https://farm5.staticflickr.com/4525/26498674439_24631680fc_c.jpg" width="800" height="299" alt="Hyperledger helloworld">
 
+<img src="https://farm5.staticflickr.com/4523/38243385192_3283c6031a_c.jpg" width="800" height="425" alt="Hyperledger helloworld 2">
+
 
 1. We then do cd to fabric-samples/fabcar
 1. we kill stale containers: docker rm -f $(docker ps -aq) 
