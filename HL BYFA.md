@@ -1,5 +1,5 @@
 
-
+<img src="/Screen Shot 2018-12-30 at 08.48.23.png">
 
 # Your first steps on the way to building Hyperledger Fabric applications
 
