@@ -18,15 +18,15 @@ With the pre-reqs in place we are ready to download the Hyperledger Fabric code:
 
 curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0  creates the directory fabric-samples
 
-hyperledger/fabric-ca
-hyperledger/fabric-zookeeper
-hyperledger/fabric-kafka
-hyperledger/fabric-couchdb
-hyperledger/fabric-javaenv
-hyperledger/fabric-tools
-hyperledger/fabric-ccenv
-hyperledger/fabric-orderer
-hyperledger/fabric-peer
+.1 hyperledger/fabric-ca
+.1 hyperledger/fabric-zookeeper
+.1 hyperledger/fabric-kafka
+.1 hyperledger/fabric-couchdb
+.1 hyperledger/fabric-javaenv
+.1 hyperledger/fabric-tools
+.1 hyperledger/fabric-ccenv
+.1 hyperledger/fabric-orderer
+.1 hyperledger/fabric-peer
 
 Hyperledger is advancing quite quickly so the version number may well have changed by the time you see this article.
 The download will take a minute or two. The download will install a directory called fabric-samples. Take time to familiarize yourself with the Hyperledger docker images that you have downloaded.
