@@ -3,9 +3,9 @@
 
 # Your first steps on the way to building Hyperledger Fabric applications
 
-Hyperledger Fabric comes with the excellent Hyperledger Composer tool that makes easy to quickly come up to speed writing Fabric applications.
+Hyperledger Fabric comes with the excellent <a href='https://hyperledger.github.io/composer/latest/installing/installing-index.html">Hyperledger Composer tool </a> that makes easy to quickly come up to speed writing Fabric applications.
 
-But how do you create your very first Hyperledger Fabric app outside of the warm confines of Composer? Let's take a look at the Hyperledger sample app on the ReadTheDocs site. It is a simple car application that goes under the name of Fabcar, for "Fabric Car". The app allows us to add and delete cars and their owners from a common ledger. A good starting app that can easily be expanded in many directions.
+But how do you create your very first Hyperledger Fabric app outside of the warm confines of Composer? Let's take a look at a alternative way by leveraging the Hyperledger sample app on the ReadTheDocs site. It is a simple car application that goes under the name of Fabcar, for "Fabric Car". The app allows us to add and delete cars and their owners from a common ledger. A good starting app that can easily be expanded in many directions.
 
 # Step 1: Make sure you have the right pre-reqs.
 
