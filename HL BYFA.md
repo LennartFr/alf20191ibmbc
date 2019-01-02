@@ -71,6 +71,9 @@ Followed by byfn.sh up which brings up the Hyperledger artefacts on your laptop.
 
 # Step 4 Bringing up and query the Fabric
 
+<img src="https://farm5.staticflickr.com/4525/26498674439_24631680fc_c.jpg" width="800" height="299" alt="Hyperledger helloworld">
+
+
 1. We then do cd to fabric-samples/fabcar
 1. we kill stale containers: docker rm -f $(docker ps -aq) 
 1. and clear cached networks: docker network prune
