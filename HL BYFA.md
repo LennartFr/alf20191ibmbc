@@ -114,10 +114,6 @@ Followed by running ./byfn.sh down, to bring down the network.
 <img src="https://farm5.staticflickr.com/4525/26498674439_24631680fc_c.jpg" width="800" height="299" alt="Hyperledger helloworld">
 
 
-
-
-<img src="https://farm5.staticflickr.com/4523/38243385192_3283c6031a_c.jpg" width="800" height="425" alt="Hyperledger helloworld 2">
-
 Which will give us the output:
 
 ~~~~
