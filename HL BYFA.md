@@ -46,7 +46,8 @@ The download will take a minute or two. The download will install a directory ca
 We are now ready to build our first network. We do this by cd into the fabric-samples directory and from there into the first-network directory.
 
 Here we find the <b>byfn.sh </b> script. This Swiss Army knife type of script leverages the Docker images we have just downloaded to "quickly bootstrap a Hyperledger Fabric network comprised of 4 peers representing two different organizations, and an orderer node. It will also launch a container to run a scripted execution that will join peers to a channel, deploy and instantiate chaincode and drive execution of transactions against the deployed chaincode."
-Let's run this script: ./byfn.sh generate. Take a look at the output from the script to see what it is doing.
+
+Let's run this script: <b>./byfn.sh generate</b>. Take a look at the output from the script to see what it is doing.
 
 ~~~~
 1. generate certificates using cryptogen tool
