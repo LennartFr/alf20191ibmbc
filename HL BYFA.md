@@ -1,7 +1,7 @@
 
 <img src="/Screen Shot 2018-12-30 at 08.48.23.png">
 
-# Your first steps on the way to building Hyperledger Fabric applications
+## Your first steps on the way to building Hyperledger Fabric applications
 
 Hyperledger Fabric comes with the excellent <a href="https://hyperledger.github.io/composer/latest/installing/installing-index.html">Hyperledger Composer tool </a> that makes easy to quickly come up to speed writing Fabric applications.
 
@@ -17,13 +17,13 @@ And the third application is the <a href="https://hyperledger-fabric.readthedocs
 
 So let's get started with build your first network.
 
-# Step 1: Make sure you have the right pre-reqs.
+## Step 1: Make sure you have the right pre-reqs.
 
 So let's start with . <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/prereqs.html#prerequisites"> the pre-reqs</a>
 
 With the pre-reqs in place we are ready to download the Hyperledger Fabric code using curl: 
 
-# Step 2 Download the Docker images of the Fabric code from GitHub
+## Step 2 Download the Docker images of the Fabric code from GitHub
 
 We will also need to install <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/install.html#install-samples-binaries-and-docker-images">Binaries and Docker Images with curl</a>, see line below:
 
@@ -46,15 +46,17 @@ creates the directory fabric-samples and pulls down the following docker images:
 Hyperledger is advancing quite quickly so the version number may well have changed by the time you see this article.
 The download will take a minute or two. The download will install a directory called fabric-samples. Take time to familiarize yourself with the Hyperledger docker images that you have downloaded.
 
-# Step 3 Let's build our first network with the byfn.sh scrip.
+## Step 3 Let's build our first network with the byfn.sh script.
 
 We are now ready to build our first network. We do this by cd into the fabric-samples directory and from there into the first-network directory.
 
 Here we find the <b>byfn.sh </b> script. This Swiss Army knife type of script leverages the Docker images we have just downloaded to "quickly bootstrap a Hyperledger Fabric network comprised of 4 peers representing two different organizations, and an orderer node. It will also launch a container to run a scripted execution that will join peers to a channel, deploy and instantiate chaincode and drive execution of transactions against the deployed chaincode."
 
-Let's run this script: <b>./byfn.sh generate</b>. Take a look at the output from the script to see what it is doing.
-
 ~~~~
+./byfn.sh generate
+
+and here is the output from the script
+
 1. generate certificates using cryptogen tool
 2. generate Orderer Genesis Block
 3. Generate channel configuration transaction 'channel.txt'
