@@ -62,27 +62,33 @@ and here is the output from the script
 5. Generate anchor peer update for Org2MSP
 ~~~~
 
-Some of the output is as follows:
+Followed by running <b>byfn.sh up</b> which brings up the Hyperledger artefacts on your laptop. Please check out the voluminous script output.
 
 ~~~~
-1. Querying chaincode on peer0.org1…
-2. Querying on peer0.org1 on channel 'mychannel'… 
-3. Attempting to Query peer0.org1 …3 secs
-4. + peer chaincode query -C mychannel -n mycc -c '{"Args":["query","a"]}'
-5. + res=0
-6. + set +x
-7. 100
+
+===================== Invoke transaction successful on peer0.org1 peer0.org2 on channel 'mychannel' ===================== 
+
+Installing chaincode on peer1.org2...
++ peer chaincode install -n mycc -v 1.0 -l golang -p github.com/chaincode/chaincode_example02/go/
++ res=0
++ set +x
+2019-01-03 22:29:59.618 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 001 Using default escc
+2019-01-03 22:29:59.619 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 002 Using default vscc
+2019-01-03 22:29:59.932 UTC [chaincodeCmd] install -> INFO 003 Installed remotely response:<status:200 payload:"OK" > 
+===================== Chaincode is installed on peer1.org2 ===================== 
+
+
+Querying chaincode on peer1.org2...
+===================== Querying on peer1.org2 on channel 'mychannel'... ===================== 
++ peer chaincode query -C mychannel -n mycc -c '{"Args":["query","a"]}'
+Attempting to Query peer1.org2 ...3 secs
++ res=0
++ set +x
+
+90
 ~~~~
 
-Followed by byfn.sh up which brings up the Hyperledger artefacts on your laptop. Please check out the voluminous script output.
-
-~~~~
-1. create mychannel
-2. having all peers join the channel
-3. peer channel join -b mychannel.block. Endorser and orderer connections initialized
-4. Follow the execution of the script.
-5. Followed by ./byfn.sh down 
-~~~~
+Followed by running ./byfn.sh down, to bring down the network.
 
 
 # Fabcar, your first application running on Hyperledger Fabric
@@ -90,9 +96,6 @@ Followed by byfn.sh up which brings up the Hyperledger artefacts on your laptop.
 ## Step 4 Bringing up and querying the Fabric
 
 <img src="https://farm5.staticflickr.com/4525/26498674439_24631680fc_c.jpg" width="800" height="299" alt="Hyperledger helloworld">
-
-
-
 
 
 ~~~~
