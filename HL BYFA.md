@@ -38,10 +38,6 @@ creates the directory fabric-samples and pulls down the following docker images:
 1. hyperledger/fabric-peer  https://hyperledger-fabric.readthedocs.io/en/release-1.3/peers/peers.html#peers
 ~~~~
 
-Let's discuss these component:
-
-1. The fabric-ca is the certificate authority
-
 Hyperledger is advancing quite quickly so the version number may well have changed by the time you see this article.
 The download will take a minute or two. The download will install a directory called fabric-samples. Take time to familiarize yourself with the Hyperledger docker images that you have downloaded.
 
