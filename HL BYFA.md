@@ -83,24 +83,20 @@ Followed by byfn.sh up which brings up the Hyperledger artefacts on your laptop.
 
 <img src="https://farm5.staticflickr.com/4525/26498674439_24631680fc_c.jpg" width="800" height="299" alt="Hyperledger helloworld">
 
-<img src="https://farm5.staticflickr.com/4523/38243385192_3283c6031a_c.jpg" width="800" height="425" alt="Hyperledger helloworld 2">
-
 ~~~~
 1. We then do cd to fabric-samples/fabcar
-1. we kill stale containers: docker rm -f $(docker ps -aq) 
-1. and clear cached networks: docker network prune
-1. docker rmi dev-peer0.org1.example.com-fabcar-1.0-5c906e402ed29f20260ae42283216aa75549c571e2e380f3615826365d8269ba
+2. we kill stale containers: docker rm -f $(docker ps -aq) 
+3. and clear cached networks: docker network prune
+4. and docker rmi dev-peer0.org1.example.com-fabcar-1.0-5c906e402ed29f20260ae42283216aa75549c571e2e380f3615826365d8269ba
+5. In the fabcar directory we invoke the startFabric.sh script.
+   The end of the startFabric.sh script instructs us to run the following commands:
+6. npm install. If error: npm rebuild followed by startFabric.sh
+7. node enrollAdmin.js
+8. node registerUser.js
+9. node query.js
 ~~~~
 
-In the fabcar directory we invoke the startFabric.sh script.
-
-The end of the startFabric.sh script instructs us to run the following commands:
-~~~~
-1. npm install. If error: npm rebuild followed by startFabric.sh
-1. node enrollAdmin.js
-1. node registerUser.js
-1. node query.js
-~~~~
+<img src="https://farm5.staticflickr.com/4523/38243385192_3283c6031a_c.jpg" width="800" height="425" alt="Hyperledger helloworld 2">
 
 Which will give us the output:
 
@@ -109,7 +105,3 @@ Response is [{"Key":"CAR0", "Record":{"colour":"blue","make":"Toyota","model":"P
 ~~~~
 
 # Step 5 Changing the Fabcar app to something else
-
-
-
-
