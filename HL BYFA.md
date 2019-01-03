@@ -17,7 +17,7 @@ And the third application is the <a href="https://hyperledger-fabric.readthedocs
 
 So let's get started with build your first network.
 
-# Step 1: Make sure you have the right pre-reqs.
+## Step 1: Make sure you have the right pre-reqs.
 
 So let's start with . <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/prereqs.html#prerequisites"> the pre-reqs</a>
 
