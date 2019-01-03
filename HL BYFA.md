@@ -19,13 +19,13 @@ So let's get started with build your first network.
 
 # Step 1: Make sure you have the right pre-reqs.
 
-So let's start with the pre-reqs. There are a fair number of pre-reqs and we need to take our time to make certain that we have them all. https://hyperledger-fabric.readthedocs.io/en/release-1.3/prereqs.html#prerequisites
+So let's start with . <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/prereqs.html#prerequisites"> the pre-reqs</a>
 
-With the pre-reqs in place we are ready to download the Hyperledger Fabric code: 
+With the pre-reqs in place we are ready to download the Hyperledger Fabric code using curl: 
 
 # Step 2 Download the Docker images of the Fabric code from GitHub
 
-We will also need to install <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/install.html#install-samples-binaries-and-docker-images">Binaries and Docker Images</a>, with curl, see line below.
+We will also need to install <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/install.html#install-samples-binaries-and-docker-images">Binaries and Docker Images with curl</a>, see line below:
 
 ~~~~
 curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0  
