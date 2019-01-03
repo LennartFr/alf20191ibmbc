@@ -21,8 +21,13 @@ https://hyperledger-fabric.readthedocs.io/en/release-1.3/install.html#install-sa
 
 # Step 2 Download the Docker images of the Fabric code from GitHub
 
-With the pre-reqs in place we are ready to download the Hyperledger Fabric code: curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0  creates the directory fabric-samples
+With the pre-reqs in place we are ready to download the Hyperledger Fabric code: 
+~~~~
+curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0  
+~~~~
+creates the directory fabric-samples and pulls down the following docker images:
 
+~~~~
 1. hyperledger/fabric-ca   https://hyperledger-fabric-ca.readthedocs.io/en/latest/users-guide.html#fabric-ca-user-s-guide
 1. hyperledger/fabric-zookeeper  https://hyperledger-fabric.readthedocs.io/en/release-1.3/kafka.html#bringing-up-a-kafka-based-ordering-service
 1. hyperledger/fabric-kafka https://hyperledger-fabric.readthedocs.io/en/release-1.3/kafka.html#bringing-up-a-kafka-based-ordering-service1. hyperledger/fabric-couchdb
@@ -31,6 +36,7 @@ With the pre-reqs in place we are ready to download the Hyperledger Fabric code:
 1. hyperledger/fabric-ccenv
 1. hyperledger/fabric-orderer  https://hyperledger-fabric.readthedocs.io/en/release-1.1/ordering-service-faq.html#ordering-service-faq
 1. hyperledger/fabric-peer  https://hyperledger-fabric.readthedocs.io/en/release-1.3/peers/peers.html#peers
+~~~~
 
 Let's discuss these component:
 
