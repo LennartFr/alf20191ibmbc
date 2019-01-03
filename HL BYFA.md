@@ -95,9 +95,6 @@ Followed by running ./byfn.sh down, to bring down the network.
 
 ## Step 4 Bringing up and querying the Fabric
 
-<img src="https://farm5.staticflickr.com/4525/26498674439_24631680fc_c.jpg" width="800" height="299" alt="Hyperledger helloworld">
-
-
 ~~~~
 1. We then do cd to fabric-samples/fabcar
 2. we kill stale containers: docker rm -f $(docker ps -aq) 
@@ -110,6 +107,14 @@ Followed by running ./byfn.sh down, to bring down the network.
 8. node registerUser.js
 9. node query.js
 ~~~~
+
+
+
+
+<img src="https://farm5.staticflickr.com/4525/26498674439_24631680fc_c.jpg" width="800" height="299" alt="Hyperledger helloworld">
+
+
+
 
 <img src="https://farm5.staticflickr.com/4523/38243385192_3283c6031a_c.jpg" width="800" height="425" alt="Hyperledger helloworld 2">
 
