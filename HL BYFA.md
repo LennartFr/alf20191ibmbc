@@ -17,7 +17,7 @@ And the third application is the <a href="https://hyperledger-fabric.readthedocs
 
 So let's get started with build your first network.
 
-## Step 1: Make sure you have the right pre-reqs.
+# Step 1: Make sure you have the right pre-reqs.
 
 So let's start with . <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/prereqs.html#prerequisites"> the pre-reqs</a>
 
@@ -86,9 +86,16 @@ Followed by byfn.sh up which brings up the Hyperledger artefacts on your laptop.
 5. Followed by ./byfn.sh down 
 ~~~~
 
-# Step 4 Bringing up and query the Fabric
+
+# Fabcar, your first application running on Hyperledger Fabric
+
+## Step 4 Bringing up and querying the Fabric
 
 <img src="https://farm5.staticflickr.com/4525/26498674439_24631680fc_c.jpg" width="800" height="299" alt="Hyperledger helloworld">
+
+
+
+
 
 ~~~~
 1. We then do cd to fabric-samples/fabcar
@@ -111,4 +118,3 @@ Which will give us the output:
 Response is [{"Key":"CAR0", "Record":{"colour":"blue","make":"Toyota","model":"Prius","owner":"Tomoko"}},{"Key":"CAR1", "Record":{"colour":"red","make":"Ford","model":"Mustang","owner":"Brad"}},{"Key":"CAR2", "Record":{"colour":"green","make":"Hyundai","model":"Tucson","owner":"Jin Soo"}},{"Key":"CAR3", "Record":{"colour":"yellow","make":"Volkswagen","model":"Passat","owner":"Max"}},{"Key":"CAR4", "Record":{"colour":"black","make":"Tesla","model":"S","owner":"Adriana"}},{"Key":"CAR5", "Record":{"colour":"purple","make":"Peugeot","model":"205","owner":"Michel"}},{"Key":"CAR6", "Record":{"colour":"white","make":"Chery","model":"S22L","owner":"Aarav"}},{"Key":"CAR7", "Record":{"colour":"violet","make":"Fiat","model":"Punto","owner":"Pari"}},{"Key":"CAR8", "Record":{"colour":"indigo","make":"Tata","model":"Nano","owner":"Valeria"}},{"Key":"CAR9", "Record":{"colour":"brown","make":"Holden","model":"Barina","owner":"Shotaro"}}]
 ~~~~
 
-# Step 5 Changing the Fabcar app to something else
