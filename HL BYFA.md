@@ -48,7 +48,11 @@ The download will take a minute or two. The download will install a directory ca
 
 ## Step 3 Let's build our first network with the byfn.sh script.
 
-We are now ready to build our first network. We do this by cd into the fabric-samples directory and from there into the first-network directory.
+We are now ready to build our first network. We do this by 
+
+~~~~
+cd /fabric-samples/first-network.
+~~~~
 
 Here we find the <b>byfn.sh </b> script. This Swiss Army knife type of script leverages the Docker images we have just downloaded to "quickly bootstrap a Hyperledger Fabric network comprised of 4 peers representing two different organizations, and an orderer node. It will also launch a container to run a scripted execution that will join peers to a channel, deploy and instantiate chaincode and drive execution of transactions against the deployed chaincode."
 
@@ -79,6 +83,14 @@ Installing chaincode on peer1.org2...
 2019-01-03 22:29:59.932 UTC [chaincodeCmd] install -> INFO 003 Installed remotely response:<status:200 payload:"OK" > 
 ===================== Chaincode is installed on peer1.org2 ===================== 
 
+Querying chaincode on peer0.org1...
+===================== Querying on peer0.org1 on channel 'mychannel'... ===================== 
+Attempting to Query peer0.org1 ...3 secs
++ peer chaincode query -C mychannel -n mycc -c '{"Args":["query","a"]}'
++ res=0
++ set +x
+
+100
 
 Querying chaincode on peer1.org2...
 ===================== Querying on peer1.org2 on channel 'mychannel'... ===================== 
