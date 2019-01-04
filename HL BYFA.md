@@ -17,6 +17,8 @@ And the third application is the <a href="https://hyperledger-fabric.readthedocs
 
 So let's get started with build your first network.
 
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
+
 ## Step 1: Make sure you have the right pre-reqs.
 
 So let's start with <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/prereqs.html#prerequisites"> the pre-reqs</a> 
@@ -90,6 +92,7 @@ Attempting to Query peer1.org2 ...3 secs
 
 Followed by running ./byfn.sh down, to bring down the network.
 
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 # Fabcar, your first application running on Hyperledger Fabric
 
