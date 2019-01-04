@@ -13,7 +13,7 @@ The first is <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/b
 
 The second is the <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/write_first_app.html?highlight=fabcar#writing-your-first-application">Writing your first Application</a> commonly known as FabCar.
 
-And the third application is the <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#commercial-paper-tutorial">Commercial paper tutorial/a> for Hyperledger Release 1.4.
+And the third application is the <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#commercial-paper-tutorial">Commercial paper tutorial</a> for Hyperledger Release 1.4.
 
 So let's get started with build your first network.
 
