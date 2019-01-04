@@ -95,12 +95,13 @@ Followed by running ./byfn.sh down, to bring down the network.
 
 ## Step 1 Bring up and query the Fabric
 
-~~~~
-1. We then do cd to fabric-samples/fabcar
-2. we kill stale containers: docker rm -f $(docker ps -aq) 
-3. and clear cached networks: docker network prune
-4. and docker rmi dev-peer0.org1.example.com-fabcar-1.0-5c906e402ed29f20260ae42283216aa75549c571e2e380f3615826365d8269ba
-5. In the fabcar directory we invoke the startFabric.sh script.
+We begin by cd to fabric-samples/fabcar
+
+~~~~ 
+1. we kill stale containers: docker rm -f $(docker ps -aq) 
+2. and clear cached networks: docker network prune
+3. and docker rmi dev-peer0.org1.example.com-fabcar-1.0-5c906e402ed29f20260ae42283216aa75549c571e2e380f3615826365d8269ba
+4. In the fabcar directory we invoke the startFabric.sh script.
    The startFabric.sh script generates the following Fabric components:  
       Creating network "net_basic" with the default driver
       Creating orderer.example.com ... done
@@ -108,10 +109,10 @@ Followed by running ./byfn.sh down, to bring down the network.
       Creating couchdb             ... done
       Creating peer0.org1.example.com ... done
    The end of the startFabric.sh script instructs us to run the following commands:
-6. npm install. If error: npm rebuild followed by startFabric.sh
-7. node enrollAdmin.js
-8. node registerUser.js
-9. node query.js
+5. npm install. If error: npm rebuild followed by startFabric.sh
+6. node enrollAdmin.js
+7. node registerUser.js
+8. node query.js
 ~~~~
 
 
