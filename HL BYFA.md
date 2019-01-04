@@ -93,7 +93,11 @@ Followed by running ./byfn.sh down, to bring down the network.
 
 # Fabcar, your first application running on Hyperledger Fabric
 
-If you haven't gone thru the Build your first network portion of this workshop, you need to pull down the docker images with curl: curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0
+If you haven't gone thru the Build your first network portion of this workshop, you need to pull down the docker images with 
+
+~~~~
+curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0
+~~~~
 
 ## Step 1 Bring up and query the Fabric
 
