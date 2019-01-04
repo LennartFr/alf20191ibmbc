@@ -104,10 +104,11 @@ curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0
 
 ## Step 1 Bring up and query the Fabric
 
-We begin by cd to fabric-samples/fabcar
+We cd to fabric-samples/fabcar
 
 ~~~~ 
 1. We begin by invoking: nvm use node
+   Output on my laptop: Now using Node v8.11.2 (npm v6.4.1) 
 2. We kill stale containers: docker rm -f $(docker ps -aq) 
 3. and clear cached networks: docker network prune
 4. and docker rmi dev-peer0.org1.example.com-fabcar-1.0-5c906e402ed29f20260ae42283216aa75549c571e2e380f3615826365d8269ba
