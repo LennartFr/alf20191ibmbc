@@ -93,7 +93,7 @@ Followed by running ./byfn.sh down, to bring down the network.
 
 # Fabcar, your first application running on Hyperledger Fabric
 
-## Step 4 Bringing up and querying the Fabric
+## Step 1 Bring up and query the Fabric
 
 ~~~~
 1. We then do cd to fabric-samples/fabcar
