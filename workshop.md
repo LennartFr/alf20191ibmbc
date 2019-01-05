@@ -2,6 +2,8 @@
 
 # The Workshop
 
+<img src="Screen Shot 2019-01-05 at 15.11.32.png">
+
 ## Use Cases: https://www.ibm.com/blockchain/use-cases/
 
 ## Exercise 0: Blockchain Platform Playground: https://blockchaindevelop.mybluemix.net/login
