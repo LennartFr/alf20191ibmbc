@@ -176,11 +176,15 @@ In the invoke.js file, repeat with the changeCarOwner function.
 
 ## Step 3 Prime the ledger with nonCar items
 
-In the startFabric.sh call:
+In the startFabric.sh there is a call to /fabric-samples/chaincode/fabcar/go/fabcar.go
+And in the fabcar.go there is the following function:
+func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Response 
 
 ~~~~
 docker exec -e "CORE_PEER_LOCALMSPID=Org1MSP" -e "CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp" cli peer chaincode invoke -o orderer.example.com:7050 -C mychannel -n fabcar -c '{"function":"initLedger","Args":[""]}'
 
+And in the /fabric-samples/chaincode/fabcar/go/fabcar.go file the initLedger Smart Contract that
+primes the ledger with ten cars.
 
 func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Response {
         cars := []Car{
