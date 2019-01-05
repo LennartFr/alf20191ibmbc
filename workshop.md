@@ -2,9 +2,7 @@
 
 # The Workshop
 
-## Use Cases
-
-https://www.ibm.com/blockchain/use-cases/
+## Use Cases: https://www.ibm.com/blockchain/use-cases/
 
 ## Exercise 0: Blockchain Platform Playground: https://blockchaindevelop.mybluemix.net/login
 ## Exercise 1: Hyperledger Composer  https://github.com/LennartFr/hyperledgerlab2018#-hands-on-lab-
