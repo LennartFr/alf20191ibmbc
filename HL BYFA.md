@@ -172,3 +172,40 @@ Response is  [{"Key":"CAR0", "Record":{"colour":"blue","make":"Toyota","model":"
 ~~~~
 In the invoke.js file, repeat with the changeCarOwner function.
 
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
+
+## Step 3 Prime the ledger with nonCar items
+
+In the startFabric.sh call:
+
+~~~~
+docker exec -e "CORE_PEER_LOCALMSPID=Org1MSP" -e "CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp" cli peer chaincode invoke -o orderer.example.com:7050 -C mychannel -n fabcar -c '{"function":"initLedger","Args":[""]}'
+
+
+func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Response {
+        cars := []Car{
+                Car{Make: "Toyota", Model: "Prius", Colour: "blue", Owner: "Tomoko"},
+                Car{Make: "Ford", Model: "Mustang", Colour: "red", Owner: "Brad"},
+                Car{Make: "Hyundai", Model: "Tucson", Colour: "green", Owner: "Jin Soo"},
+                Car{Make: "Volkswagen", Model: "Passat", Colour: "yellow", Owner: "Max"},
+                Car{Make: "Tesla", Model: "S", Colour: "black", Owner: "Adriana"},
+                Car{Make: "Peugeot", Model: "205", Colour: "purple", Owner: "Michel"},
+                Car{Make: "Chery", Model: "S22L", Colour: "white", Owner: "Aarav"},
+                Car{Make: "Fiat", Model: "Punto", Colour: "violet", Owner: "Pari"},
+                Car{Make: "Tata", Model: "Nano", Colour: "indigo", Owner: "Valeria"},
+                Car{Make: "Holden", Model: "Barina", Colour: "brown", Owner: "Shotaro"},
+        }
+
+        i := 0
+        for i < len(cars) {
+                fmt.Println("i is ", i)
+                carAsBytes, _ := json.Marshal(cars[i])
+                APIstub.PutState("CAR"+strconv.Itoa(i), carAsBytes)
+                fmt.Println("Added", cars[i])
+                i = i + 1
+        }
+
+        return shim.Success(nil)
+}
+
+~~~~
