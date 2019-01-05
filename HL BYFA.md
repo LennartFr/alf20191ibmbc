@@ -125,7 +125,7 @@ We cd to fabric-samples/fabcar
 3. and clear cached networks: docker network prune
 4. and docker rmi dev-peer0.org1.example.com-fabcar-1.0-5c906e402ed29f20260ae42283216aa75549c571e2e380f3615826365d8269ba
 5. In the fabcar directory we invoke the startFabric.sh script.
-   The startFabric.sh script generates the following Fabric components:  
+   The ./startFabric.sh script generates the following Fabric components:  
       Creating network "net_basic" with the default driver
       Creating orderer.example.com ... done
       Creating ca.example.com         ... done
