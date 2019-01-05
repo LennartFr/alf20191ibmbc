@@ -1,5 +1,7 @@
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
+Workshop URL: https://bit.ly/2F8CuND
+
 # Readme file, start here
 
 This workshop is built around the IBM code patterns for Blockchain https://developer.ibm.com/patterns/category/blockchain/ and the IBM Cloud-bases Blockchain platform https://www.ibm.com/blockchain/platform
