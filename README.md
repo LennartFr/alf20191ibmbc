@@ -2,7 +2,7 @@
 
 Workshop URL: https://bit.ly/2F8CuND
 
-# Readme file, start here
+# Workshop Readme file, start here!
 
 This workshop is built around the IBM code patterns for Blockchain https://developer.ibm.com/patterns/category/blockchain/ and the IBM Cloud-bases Blockchain platform https://www.ibm.com/blockchain/platform
 
