@@ -39,6 +39,8 @@ October 2008 It all started with Satoshi Nakamoto and his paper [Bitcoin: A Peer
 
 <img src="Screen Shot 2018-10-19 at 11.49.41 (1).png">
 
+## Message flow in a Hyperledger Fabric
+
 <img src="fig1.png">
 
 
