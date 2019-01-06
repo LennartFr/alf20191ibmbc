@@ -32,6 +32,7 @@ October 2008 It all started with Satoshi Nakamoto and his paper [Bitcoin: A Peer
 
 ## The Hyperledger components
 
+<img src="Screen Shot 2018-10-19 at 11.49.41 (1).png">
 
 <b>Distributed Ledger</b> The Ledger is constructed in Chaincode by the Ordering Service and is a peer-to-peer network 
 of a totally ordered hashchain of blocks of (valid or invalid) transactions. The hashchain imposes the total order of blocks in a ledger and each block contains an array of totally ordered transactions. This imposes total order across all transactions.
