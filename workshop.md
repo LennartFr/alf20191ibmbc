@@ -2,6 +2,14 @@
 
 # The Workshop
 
+## How did it all start?
+
+October 2008 It all started with Satoshi Nakamoto and his paper [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf) which addressed a key problem in electronic commerce:
+
+<img src="https://farm5.staticflickr.com/4505/24079519258_ab8a80f7ed_o.png" width="769" height="229" alt="Double Spending">
+
+## Linux Foundation's Hyperledger
+
 <img src="Screen Shot 2019-01-05 at 15.11.32.png">
 
 ## Use Cases: https://www.ibm.com/blockchain/use-cases/
