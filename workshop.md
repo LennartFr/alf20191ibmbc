@@ -32,6 +32,8 @@ October 2008 It all started with Satoshi Nakamoto and his paper [Bitcoin: A Peer
 
 ## The Hyperledger components
 
+<img src="68747470733a2f2f6661726d352e737461746963666c69636b722e636f6d2f343439362f33373833333935333439365f666130333135343133395f6f2e706e67 (1).png">
+
 <img src="Screen Shot 2018-10-19 at 11.49.41 (1).png">
 
 <b>Distributed Ledger</b> The Ledger is constructed in Chaincode by the Ordering Service and is a peer-to-peer network 
