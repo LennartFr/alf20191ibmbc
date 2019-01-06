@@ -18,7 +18,8 @@ October 2008 It all started with Satoshi Nakamoto and his paper [Bitcoin: A Peer
 ## Exercise 1: First Steps Building Hyperledger Applications [Start bulding Hyperledger Fabric applications](HL%20BYFA.md)
 ## Exercise 2: Decentralized Energy Composer: https://github.com/IBM/Decentralized-Energy-Composer 
 ## Demo: [The Blockchain Bean](https://www.ibm.com/thought-leadership/blockchainbean/)
-## Exercise 3: IBM Blockchain Platform
+## Exercise 3: [The Marbles App](https://github.com/IBM-Blockchain/marbles)
+## Exercise 4: IBM Blockchain Platform
 
 <img src="https://github.com/LennartFr/hyperlab20181018/blob/master/IBM%20Cloud%20Samples.png">
 
