@@ -39,15 +39,17 @@ The Distributed Ledger consists of an immutable Blockchain and the World State D
 
 The Ledger is kept at all peers and, optionally, at a subset of orderers. 
 
-<b>Chaincode </b> Chaincode is what Hyperledger calls <b>Smart Contracts </b>. They are invoked by a client application external to the blockchain network – that manages access and modifications to a set of key-value pairs in the World State. Smart contract chaincode is installed onto peer nodes and instantiated to one or more channels.
+<b>Hyperledger Fabric channel</b> is a private “subnet” of communication between two or more specific network members, for the purpose of conducting private and confidential transactions. A channel is defined by members (organizations), anchor peers per member, the shared ledger, chaincode application(s) and the ordering service node(s).
+
+<b>Chaincode </b> Chaincode is what Ethereum calls <b>Smart Contracts </b>. They are invoked by a client application external to the blockchain network – that manages access and modifications to a set of key-value pairs in the World State. Smart contract chaincode is installed onto peer nodes and instantiated to one or more channels.
 
 <b>Peer</b> A network entity that hosts the ledger and runs chaincode containers in order to perform read/write operations to the ledger. Peers are owned and maintained by members.
 
 <b>Hyperledger Fabric CA </b> is the default Certificate Authority component, which issues PKI-based certificates to network member organizations and their users. The CA issues one root certificate (rootCert) to each 
 
-<b>Orderer</b> Is responsible for establishing consensus. It is a defined collective of nodes that orders transactions into a block. The ordering service exists independent of the peer processes and orders transactions on a first-come-first-serve basis for all channel’s on the network. The ordering service is designed to support pluggable implementations beyond the out-of-the-box SOLO and Kafka varieties. The ordering service is a common binding for the overall network; it contains the cryptographic identity material tied to each Member.
+<b>Orderer</b> is responsible for establishing consensus. It is a defined collective of nodes that orders transactions into a block. The ordering service exists independent of the peer processes and orders transactions on a first-come-first-serve basis for all channel’s on the network. The ordering service is designed to support pluggable implementations beyond the out-of-the-box SOLO and Kafka varieties. The ordering service is a common binding for the overall network; it contains the cryptographic identity material tied to each Member.
 
-
+<b>Consensus</b> is the process of reaching agreement on the next set of transactions to be added to the ledger. First a transaction must be endorsed, then passed to the Orderers for validation and commitment.
 
 ## Exercise 0: Blockchain Platform Playground: https://blockchaindevelop.mybluemix.net/login
 ## Exercise 1: First Steps Building Hyperledger Applications [Start bulding Hyperledger Fabric applications](HL%20BYFA.md)
