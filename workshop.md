@@ -14,6 +14,24 @@ October 2008 It all started with Satoshi Nakamoto and his paper [Bitcoin: A Peer
 
 ## Use Cases: https://www.ibm.com/blockchain/use-cases/
 
+## The Hyperledger components
+
+<b>Distributed Ledger</b> The Ledger is constructed in Chaincode by the Ordering Service and is a peer-to-peer network consisting of an immutable Blockchain and the World State Database. The latter is a database containing the current value of the set of key-value pairs that have been added, modified or deleted by the set of validated and committed transactions in the blockchain.
+
+<b>Chaincode </b> Chaincode is what Hyperledger calls <b>Smart Contracts </b>. They are invoked by a client application external to the blockchain network – that manages access and modifications to a set of key-value pairs in the World State. Smart contract chaincode is installed onto peer nodes and instantiated to one or more channels.
+
+<b>Peer</b> A network entity that hosts the ledger and runs chaincode containers in order to perform read/write operations to the ledger. Peers are owned and maintained by members.
+
+<b>Hyperledger Fabric CA </b> is the default Certificate Authority component, which issues PKI-based certificates to network member organizations and their users. The CA issues one root certificate (rootCert) to each 
+
+<b>Orderer</b> Is responsible for establishing consensus. It is a defined collective of nodes that orders transactions into a block. The ordering service exists independent of the peer processes and orders transactions on a first-come-first-serve basis for all channel’s on the network. The ordering service is designed to support pluggable implementations beyond the out-of-the-box SOLO and Kafka varieties. The ordering service is a common binding for the overall network; it contains the cryptographic identity material tied to each Member.
+
+Users - A user is an entity that is authorized to interact with the blockchain. In the Marbles context, this is our admin. The user can query and write to the ledger.
+
+Blocks - Blocks contain transactions and a hash to verify integrity.
+
+Transactions or Proposals - These represent interactions to the blockchain ledger. A read or write request of the ledger is sent as a transaction/proposal.
+
 ## Exercise 0: Blockchain Platform Playground: https://blockchaindevelop.mybluemix.net/login
 ## Exercise 1: First Steps Building Hyperledger Applications [Start bulding Hyperledger Fabric applications](HL%20BYFA.md)
 ## Exercise 2: Decentralized Energy Composer: https://github.com/IBM/Decentralized-Energy-Composer 
