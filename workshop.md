@@ -43,12 +43,19 @@ October 2008 It all started with Satoshi Nakamoto and his paper [Bitcoin: A Peer
 
 <img src="fig1.png">
 
+## Major components of the Hyperledger Fabric
+
+[Hyperledger Fabric Glossary](https://fabrictestdocs.readthedocs.io/en/latest/glossary.html#hyperledger-fabric-glossary)
+
 <b>Hyperledger Fabric</b> is a private and permissioned blockchain without crypto-currency. Members enroll through a Membership Service Provider.
 
 <p>Member Service Provider</b>
 Allows members to enroll to the permissioned Hyperledger Fabric, uses the Hyperledger Fabric Certificate Authority.
 
 <b>Hyperledger Fabric CA </b> is the default Certificate Authority component, which issues PKI-based certificates to network member organizations and their users. The CA issues one root certificate (rootCert) to each 
+
+<b>Blockchain Network</b>
+A blockchain network consists of, at minimum, one peer (responsible for endorsing and committing transactions) leveraging an ordering service, and a membership services component (certificate authority) that distributes and revokes cryptographic certificates representative of user identities and permissions.
 
 <b>Consensus algorithm</b> is the process of reaching agreement on the next set of transactions to be added to the ledger. First a transaction must be endorsed, then passed to the Orderers for validation and commitment.  The simplest consensus algoritm is SOLO, which only needs one consenter to write transactions to the ledger.
 
