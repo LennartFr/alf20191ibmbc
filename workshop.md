@@ -42,6 +42,8 @@ October 2008 It all started with Satoshi Nakamoto and his paper [Bitcoin: A Peer
 
 <img src="fig1.png">
 
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
+
 ## Major components of the Hyperledger Fabric
 
 [Hyperledger Fabric Glossary](https://fabrictestdocs.readthedocs.io/en/latest/glossary.html#hyperledger-fabric-glossary)
