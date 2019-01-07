@@ -36,7 +36,6 @@ October 2008 It all started with Satoshi Nakamoto and his paper [Bitcoin: A Peer
 11. fabric-baseos
 ~~~~
 
-
 <img src="Screen Shot 2018-10-19 at 11.49.41 (1).png">
 
 ## Message flow in a Hyperledger Fabric
@@ -47,15 +46,13 @@ October 2008 It all started with Satoshi Nakamoto and his paper [Bitcoin: A Peer
 
 [Hyperledger Fabric Glossary](https://fabrictestdocs.readthedocs.io/en/latest/glossary.html#hyperledger-fabric-glossary)
 
-<b>Hyperledger Fabric</b> is a private and permissioned blockchain without crypto-currency. Members enroll through a Membership Service Provider.
+[Hyperledger FAQ](https://hyperledger-fabric.readthedocs.io/en/release-1.1/Fabric-FAQ.html)
 
-<p>Member Service Provider</b>
-Allows members to enroll to the permissioned Hyperledger Fabric, uses the Hyperledger Fabric Certificate Authority.
-
-<b>Hyperledger Fabric CA </b> is the default Certificate Authority component, which issues PKI-based certificates to network member organizations and their users. The CA issues one root certificate (rootCert) to each 
+<b>Hyperledger Fabric</b> is a private and permissioned blockchain without crypto-currency. Members enroll through a Membership Service Provider which calls the Hyperledger Fabric Certificate Authority which issues PKI-based 
+certificates to network member organizations and their users. 
 
 <b>Blockchain Network</b>
-A blockchain network consists of, at minimum, one peer (responsible for endorsing and committing transactions) leveraging an ordering service, and a membership services component (certificate authority) that distributes and revokes cryptographic certificates representative of user identities and permissions.
+A blockchain network consists of, at minimum, <b>one peer</b> (responsible for endorsing and committing transactions) leveraging <b>an ordering service</b>, and a <b>membership services component (certificate authority)</b> that distributes and revokes cryptographic certificates representative of user identities and permissions.
 
 <b>Consensus algorithm</b> is the process of reaching agreement on the next set of transactions to be added to the ledger. First a transaction must be endorsed, then passed to the Orderers for validation and commitment.  The simplest consensus algoritm is SOLO, which only needs one consenter to write transactions to the ledger.
 
@@ -72,7 +69,7 @@ The Ledger is kept at all peers and, optionally, at a subset of orderers.
 
 [Chaincode and the Oracle Problem](https://medium.com/@antsankov/the-oracle-problem-isnt-a-problem-and-why-smart-contracts-makes-insurance-better-for-everyone-8c979f09851c)
 
-<b>Peer</b> A network entity that hosts the ledger and runs chaincode containers in order to perform read/write operations to the ledger. Peers are owned and maintained by members.
+<b>Peer</b> A network entity that hosts the ledger and runs chaincode containers in order to perform read/write operations to the ledger. Peers are owned and maintained by members. The number of peers required to endorse a transaction is driven by the endorsement policy that is specified at chaincode deployment time.
 
 <b>Orderer</b> is responsible for establishing consensus. It is a defined collective of nodes that orders transactions into a block. The ordering service exists independent of the peer processes and orders transactions on a first-come-first-serve basis for all channel’s on the network. The ordering service is designed to support pluggable implementations beyond the out-of-the-box SOLO and Kafka varieties. The ordering service is a common binding for the overall network; it contains the cryptographic identity material tied to each Member.
 
