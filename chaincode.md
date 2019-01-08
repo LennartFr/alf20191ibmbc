@@ -6,5 +6,5 @@ Chaincode runs on the peers, create transactions and update the ledger.
 
 [Chaincode Tutorials](https://hyperledger-fabric.readthedocs.io/en/release-1.3/chaincode.html)
 
-[Fabric Chaincode node in Github](https://github.com/hyperledger/fabric-chaincode-node)
+[Node Fabric Chaincode on Github](https://github.com/hyperledger/fabric-chaincode-node)
 
