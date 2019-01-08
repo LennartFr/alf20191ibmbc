@@ -8,3 +8,5 @@ Chaincode runs on the peers, create transactions and update the ledger.
 
 [Node Fabric Chaincode on Github](https://github.com/hyperledger/fabric-chaincode-node)
 
+[Node Chaincode Utilities](https://github.com/wearetheledger/fabric-node-chaincode-utils)
+
