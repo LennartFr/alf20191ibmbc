@@ -10,3 +10,7 @@ Chaincode runs on the peers, create transactions and update the ledger.
 
 [Node Chaincode Utilities](https://github.com/wearetheledger/fabric-node-chaincode-utils)
 
+## Exercises
+
+[Develop a Node.js smart contract and web app for a Global Finance with blockchain use case](https://developer.ibm.com/patterns/global-financing-use-case-for-blockchain/)
+
