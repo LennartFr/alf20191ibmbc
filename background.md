@@ -53,6 +53,6 @@ Christian Cachin <a href="https://www.ibm.com/blogs/research/2017/10/resilient-c
 Source: https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf
 
 
-As Vinay Gupta writes in Harvard Business Business Review of March 6 2017, <i>The Promise of Blockchain is a World without Middlemen.</i>
+As Vinay Gupta writes in Harvard Business Business Review of March 6 2017, [The Promise of Blockchain is a World without Middlemen](https://hbr.org/2017/03/the-promise-of-blockchain-is-a-world-without-middlemen)
 
 	
