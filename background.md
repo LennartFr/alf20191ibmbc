@@ -56,3 +56,4 @@ Source: https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf
 As Vinay Gupta writes in Harvard Business Business Review of March 6 2017, [The Promise of Blockchain is a World without Middlemen](https://hbr.org/2017/03/the-promise-of-blockchain-is-a-world-without-middlemen)
 
 	
+[Actors in a Blockchain Solution](Screen Shot 2018-10-12 at 13.05.55.png)
