@@ -16,6 +16,8 @@ We have included background information here: https://github.com/LennartFr/alf20
 
 Events that make use of this repo are listed here: https://github.com/LennartFr/alf20191ibmbc/blob/master/events.md 
 
+[Some background](/background.md)
+
 [The Workshop is here:](/workshop.md)
 
 
