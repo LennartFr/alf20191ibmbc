@@ -12,8 +12,6 @@ To read:
 1. <a href="https://cognitiveclass.ai/learn/blockchain-for-developers/">Blockchain for Developers</a>
 1. <a href="https://cognitiveclass.ai/courses/blockchain-course/">Blockchain Essentials. Understand blockchain technology and how it can solve business proble</a>
 1. <a href="IBM Skills Network. IBM Blockchain Foundation Developer">https://cognitiveclass.ai/courses/ibm-blockchain-foundation-dev/</a>
-1. <a href="https://cognitiveclass.ai/learn/blockchain-for-developers/">Blockchain for Developers</a>
-
   
 # Satoshi Nakamoto's revolution in October 2008.
  
