@@ -80,10 +80,12 @@ The Ledger is kept at all peers and, optionally, at a subset of orderers.
 
 ## Exercise 0: Blockchain Platform Playground: https://blockchaindevelop.mybluemix.net/login
 ## Exercise 1: First Steps Building Hyperledger Applications [Start bulding Hyperledger Fabric applications](HL%20BYFA.md)
-## Exercise 2: Decentralized Energy Composer: https://github.com/IBM/Decentralized-Energy-Composer 
+## Exercise 2: Decentralized Energy Composer: https://github.com/IBM/Decentralized-Energy-Composer
+## Exercise 3: Develop a Node.js smart contract and web app for Global Finance with Blockchain      https://developer.ibm.com/patterns/global-financing-use-case-for-blockchain/
+
 ## Demo: [The Blockchain Bean](https://www.ibm.com/thought-leadership/blockchainbean/)
-## Exercise 3: [The Marbles App](https://github.com/IBM-Blockchain/marbles)
-## Exercise 4: IBM Blockchain Platform
+## Exercise 4: [The Marbles App](https://github.com/IBM-Blockchain/marbles)
+## Exercise 5: [IBM Blockchain Platform](https://www.ibm.com/blockchain/platform)
 
 <img src="https://github.com/LennartFr/hyperlab20181018/blob/master/IBM%20Cloud%20Samples.png">
 
