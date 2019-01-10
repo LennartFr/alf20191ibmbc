@@ -34,58 +34,47 @@ The download will take a minute or two. The download will install a directory ca
 
 ## Step 3 Let's build our first network with the byfn.sh script.
 
-We are now ready to build our first network. We do this by 
+We are now ready to [build our first network](https://hyperledger-fabric.readthedocs.io/en/release-1.4/build_network.html) 
 
 ~~~~
-cd /fabric-samples/first-network.
-~~~~
-
-Here we find the <b>byfn.sh </b> script. This Swiss Army knife type of script leverages the Docker images we have just downloaded to "quickly bootstrap a Hyperledger Fabric network comprised of 4 peers representing two different organizations, and an orderer node. It will also launch a container to run a scripted execution that will join peers to a channel, deploy and instantiate chaincode and drive execution of transactions against the deployed chaincode."
-
-~~~~
+cd fabric-samples/first-network
 ./byfn.sh generate
 
-and here is the output from the script
+Which does the following:
 
-1. generate certificates using cryptogen tool
-2. generate Orderer Genesis Block
-3. Generate channel configuration transaction 'channel.txt'
-4. Generate anchor peer update for Org1MSP
-5. Generate anchor peer update for Org2MSP
+1 Generate certificates using cryptogen tool 
+2 Generating Orderer Genesis block (The first block of the blockchain)
+3 Generating channel configuration transaction 'channel.tx'
+4 Generating anchor peer update for Org1MSP  (MSP = Member Service Provider)
+5 Generating anchor peer update for Org2MSP 
 ~~~~
 
-Followed by running <b>byfn.sh up</b> which brings up the Hyperledger artefacts on your laptop. Please check out the voluminous script output.
+Followed by running <b>./byfn.sh up -l node</b> which brings up the Hyperledger artefacts on your laptop. Please check out the voluminous script outpu
 
 ~~~~
+Build your first network (BYFN) end-to-end test
+Channel name : mychannel
+Creating channel...
+Endorser and orderer connections initialized
+===================== Channel 'mychannel' created ===================== 
+Having all peers join the channel...
+peer0.org1 joined channel 'mychannel'
+peer1.org1 joined channel 'mychannel'
+peer0.org2 joined channel 'mychannel'
+peer1.org2 joined channel 'mychannel'
+Anchor peers updated for org 'Org1MSP' on channel 'mychannel'
+Anchor peers updated for org 'Org2MSP' on channel 'mychannel'
+Chaincode is installed on peer0.org1
+peer chaincode install -n mycc -v 1.0 -l node -p /opt/gopath/src/github.com/chaincode/chaincode_example02/node/
+Chaincode is installed on peer0.org2 
+Chaincode is instantiated on peer0.org2 on channel 'mychannel'
+Querying on peer0.org1 on channel 'mychannel'...
+Query successful on peer0.org1 on channel 'mychannel'
+Invoke transaction successful on peer0.org1 peer0.org2 on channel 'mychannel'
+Querying on peer1.org2 on channel 'mychannel'...
+Query successful on peer1.org2 on channel 'mychannel' =
+All GOOD, BYFN execution completed
 
-===================== Invoke transaction successful on peer0.org1 peer0.org2 on channel 'mychannel' ===================== 
-
-Installing chaincode on peer1.org2...
-+ peer chaincode install -n mycc -v 1.0 -l golang -p github.com/chaincode/chaincode_example02/go/
-+ res=0
-+ set +x
-2019-01-03 22:29:59.618 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 001 Using default escc
-2019-01-03 22:29:59.619 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 002 Using default vscc
-2019-01-03 22:29:59.932 UTC [chaincodeCmd] install -> INFO 003 Installed remotely response:<status:200 payload:"OK" > 
-===================== Chaincode is installed on peer1.org2 ===================== 
-
-Querying chaincode on peer0.org1...
-===================== Querying on peer0.org1 on channel 'mychannel'... ===================== 
-Attempting to Query peer0.org1 ...3 secs
-+ peer chaincode query -C mychannel -n mycc -c '{"Args":["query","a"]}'
-+ res=0
-+ set +x
-
-100
-
-Querying chaincode on peer1.org2...
-===================== Querying on peer1.org2 on channel 'mychannel'... ===================== 
-+ peer chaincode query -C mychannel -n mycc -c '{"Args":["query","a"]}'
-Attempting to Query peer1.org2 ...3 secs
-+ res=0
-+ set +x
-
-90
 ~~~~
 
 Followed by running ./byfn.sh down, to bring down the network.
