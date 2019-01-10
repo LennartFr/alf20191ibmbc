@@ -199,6 +199,6 @@ func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Respo
 
         return shim.Success(nil)
 }
-
+ 
 ~~~~
 By md]odifying the fabcar.go function we can change the ledger to accept our own data.
