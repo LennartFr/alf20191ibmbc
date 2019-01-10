@@ -193,47 +193,13 @@ Let's cd to fabric-samples/chaincode/chaincode_example02/node:
 
 
 
-
-
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-## Step 3 Prime the ledger with nonCar items
+# Commercial Paper Tutorial
 
-In the startFabric.sh there is a call to /fabric-samples/chaincode/fabcar/go/fabcar.go
-And in the fabcar.go there is the following function:
-func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Response 
+[Commercial Paper Tutorial}(https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html)
 
-~~~~
-docker exec -e "CORE_PEER_LOCALMSPID=Org1MSP" -e "CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp" cli peer chaincode invoke -o orderer.example.com:7050 -C mychannel -n fabcar -c '{"function":"initLedger","Args":[""]}'
 
-And in the /fabric-samples/chaincode/fabcar/go/fabcar.go file the initLedger Smart Contract that
-primes the ledger with ten cars.
 
-func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Response {
-        cars := []Car{
-                Car{Make: "Toyota", Model: "Prius", Colour: "blue", Owner: "Tomoko"},
-                Car{Make: "Ford", Model: "Mustang", Colour: "red", Owner: "Brad"},
-                Car{Make: "Hyundai", Model: "Tucson", Colour: "green", Owner: "Jin Soo"},
-                Car{Make: "Volkswagen", Model: "Passat", Colour: "yellow", Owner: "Max"},
-                Car{Make: "Tesla", Model: "S", Colour: "black", Owner: "Adriana"},
-                Car{Make: "Peugeot", Model: "205", Colour: "purple", Owner: "Michel"},
-                Car{Make: "Chery", Model: "S22L", Colour: "white", Owner: "Aarav"},
-                Car{Make: "Fiat", Model: "Punto", Colour: "violet", Owner: "Pari"},
-                Car{Make: "Tata", Model: "Nano", Colour: "indigo", Owner: "Valeria"},
-                Car{Make: "Holden", Model: "Barina", Colour: "brown", Owner: "Shotaro"},
-        }
 
-        i := 0
-        for i < len(cars) {
-                fmt.Println("i is ", i)
-                carAsBytes, _ := json.Marshal(cars[i])
-                APIstub.PutState("CAR"+strconv.Itoa(i), carAsBytes)
-                fmt.Println("Added", cars[i])
-                i = i + 1
-        }
 
-        return shim.Success(nil)
-}
- 
-~~~~
-By modifying the fabcar.go function we can change the ledger to accept our own data.
