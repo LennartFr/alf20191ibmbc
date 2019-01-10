@@ -3,23 +3,15 @@
 
 ## Your first steps on the way to building Hyperledger Fabric applications
 
-Let's start by bringing up a Hyperledger Fabric Network: <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/build_network.html">Build Your First Network </a> with the BYFN.sh script.
-
-The second is the <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/write_first_app.html?highlight=fabcar#writing-your-first-application">Writing your first Application</a> commonly known as FabCar.
-
-And the third application is the <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#commercial-paper-tutorial">Commercial paper tutorial</a> for Hyperledger Release 1.4.
-
-So let's get started with build your first network.
-
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 ## Step 1: Make sure you have the right pre-reqs.
 
-So let's start with <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/prereqs.html#prerequisites"> the pre-reqs</a> 
+So let's start with <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html#prerequisites"> the pre-reqs</a> 
 
 ## Step 2 Download the Docker images of the Fabric code from GitHub
 
-We will also need to install <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/install.html#install-samples-binaries-and-docker-images">Binaries and Docker Images with curl</a>, see line below:
+We will also need to install <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/install.html#install-samples-binaries-and-docker-images">Binaries and Docker Images with curl</a>, see line below:
 
 ~~~~
 curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0  
