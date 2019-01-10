@@ -3,13 +3,7 @@
 
 ## Your first steps on the way to building Hyperledger Fabric applications
 
-Hyperledger Fabric comes with the excellent <a href="https://hyperledger.github.io/composer/latest/installing/installing-index.html">Hyperledger Composer tool </a> that makes easy to quickly come up to speed writing Fabric applications.
-
-But the Composer will not have the same central role in the Hyperledger Fabric architecture that it had in 2018. Which leades to the question of how you create your very first Hyperledger Fabric app outside of the warm confines of Composer?
-
-Let's take a look at an alternative way of getting started by leveraging two Hyperledger Sample apps on the Hyperledger  <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/build_network.html">ReadTheDocs site.</a>
-
-The first is <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/build_network.html">Build Your First Network </a> with the BYFN.sh script.
+Let's start by bringing up a Hyperledger Fabric Network: <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/build_network.html">Build Your First Network </a> with the BYFN.sh script.
 
 The second is the <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.3/write_first_app.html?highlight=fabcar#writing-your-first-application">Writing your first Application</a> commonly known as FabCar.
 
