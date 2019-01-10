@@ -10,8 +10,8 @@ https://mitpress.mit.edu/books/blockchain-and-new-architecture-trust
 To read:
 
 1. [Blockchain for Developers](https://cognitiveclass.ai/learn/blockchain-for-developers/)
-1. [Blockchain Essentials. Understand blockchain technology and how it can solve business problems (https://cognitiveclass.ai/courses/blockchain-course/)
-1. [IBM Skills Network. IBM Blockchain Foundation Developer](https://cognitiveclass.ai/courses/ibm-blockchain-foundation-dev)
+1. [Blockchain Essentials](https://cognitiveclass.ai/courses/blockchain-course/)
+1. [IBM Blockchain Foundation Developer](https://cognitiveclass.ai/courses/ibm-blockchain-foundation-dev)
   
 # Satoshi Nakamoto's revolution in October 2008.
  
