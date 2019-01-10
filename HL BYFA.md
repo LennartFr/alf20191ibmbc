@@ -76,10 +76,11 @@ Invoke transaction successful on peer0.org1 peer0.org2 on channel 'mychannel'
 Querying on peer1.org2 on channel 'mychannel'...
 Query successful on peer1.org2 on channel 'mychannel' =
 All GOOD, BYFN execution completed
-
 ~~~~
 
-Followed by running ./byfn.sh down, to bring down the network.
+The chaincode used is /fabric-samples/chaincode/chaincode_example02/node
+
+At the end of running the chaincode we do  ./byfn.sh down, to bring down the network.
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
@@ -88,7 +89,7 @@ Followed by running ./byfn.sh down, to bring down the network.
 If you haven't gone thru the Build your first network portion of this workshop, you need to pull down the docker images with 
 
 ~~~~
-curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0
+curl -sSL http://bit.ly/2ysbOFE | bash -s 1.4.0  
 ~~~~
 
 ## Step 1 Bring up and query the Fabric
