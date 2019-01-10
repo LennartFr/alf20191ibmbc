@@ -36,18 +36,16 @@ The download will take a minute or two. The download will install a directory ca
 
 We are now ready to [build our first network](https://hyperledger-fabric.readthedocs.io/en/release-1.4/build_network.html) 
 
-~~~~
 cd fabric-samples/first-network
 ./byfn.sh generate
 
 Which does the following:
 
-1 Generate certificates using cryptogen tool 
-2 Generating Orderer Genesis block (The first block of the blockchain)
-3 Generating channel configuration transaction 'channel.tx'
-4 Generating anchor peer update for Org1MSP  (MSP = Member Service Provider)
-5 Generating anchor peer update for Org2MSP 
-~~~~
+1. Generate certificates using cryptogen tool 
+1. Generating Orderer Genesis block (The first block of the blockchain)
+1. Generating channel configuration transaction 'channel.tx'
+1. Generating anchor peer update for Org1MSP  (MSP = Member Service Provider)
+1. Generating anchor peer update for Org2MSP 
 
 Followed by running <b>./byfn.sh up -l node</b> which brings up the Hyperledger network on your laptop. 
 
