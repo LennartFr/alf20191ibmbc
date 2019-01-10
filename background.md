@@ -58,11 +58,6 @@ As Vinay Gupta writes in Harvard Business Business Review of March 6 2017, [The 
 	
 <img src="Screen Shot 2018-10-12 at 13.05.55.png">
 
-
- How did it all start?
-
-October 2008 It all started with Satoshi Nakamoto and his paper [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf) which addressed a key problem in electronic commerce:
-
 <img src="https://farm5.staticflickr.com/4505/24079519258_ab8a80f7ed_o.png" width="769" height="229" alt="Double Spending">
 
 ## Linux Foundation's Hyperledger
