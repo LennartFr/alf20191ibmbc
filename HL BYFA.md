@@ -19,15 +19,15 @@ curl -sSL http://bit.ly/2ysbOFE | bash -s 1.4.0
 creates the directory fabric-samples and pulls down the following docker images:
 
 ~~~~
-1. hyperledger/fabric-ca   https://hyperledger-fabric-ca.readthedocs.io/en/latest/users-guide.html#fabric-ca-user-s-guide
-2. hyperledger/fabric-zookeeper  https://hyperledger-fabric.readthedocs.io/en/release-1.3/kafka.html#bringing-up-a-kafka-based-ordering-service
-3. hyperledger/fabric-kafka https://hyperledger-fabric.readthedocs.io/en/release-1.3/kafka.html#bringing-up-a-kafka-based-ordering-service1. hyperledger/fabric-couchdb
-4. hyperledger/fabric-javaenv
-5. hyperledger/fabric-tools
-6. hyperledger/fabric-ccenv
-7. hyperledger/fabric-orderer  https://hyperledger-fabric.readthedocs.io/en/release-1.1/ordering-service-faq.html#ordering-service-faq
-8. hyperledger/fabric-peer  https://hyperledger-fabric.readthedocs.io/en/release-1.3/peers/peers.html#peers
-~~~~
+hyperledger/fabric-tools                                                                                             
+hyperledger/fabric-ccenv                                                                                                 hyperledger/fabric-orderer                                                                            
+hyperledger/fabric-peer                                                                                              
+hyperledger/fabric-ca                                                                                                       hyperledger/fabric-javaenv                                                                               
+hyperledger/fabric-zookeeper                                                                             
+hyperledger/fabric-kafka                                                                                              
+hyperledger/fabric-couchdb                                                                                            
+hyperledger/fabric-baseimage                                                                                     
+hyperledger/fabric-tools                                                                                                      ~~~~
 
 Hyperledger is advancing quite quickly so the version number may well have changed by the time you see this article.
 The download will take a minute or two. The download will install a directory called fabric-samples. Take time to familiarize yourself with the Hyperledger docker images that you have downloaded.
