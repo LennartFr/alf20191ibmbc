@@ -50,6 +50,7 @@ Which does the following:
 Followed by running <b>./byfn.sh up -l node</b> which brings up the Hyperledger network on your laptop. 
 
 ~~~~
+
 Build your first network (BYFN) end-to-end test
 Channel name : mychannel
 Creating channel...
