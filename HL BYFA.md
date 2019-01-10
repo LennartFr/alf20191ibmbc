@@ -197,7 +197,7 @@ Let's cd to fabric-samples/chaincode/chaincode_example02/node:
 
 # Commercial Paper Tutorial
 
-[Commercial Paper Tutorial}(https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html)
+[Commercial Paper Tutorial](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html)
 
 
 
