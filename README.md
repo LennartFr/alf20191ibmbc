@@ -14,9 +14,9 @@ The Hyperledger 1.4 repos can be found here:
 1. [Hyperledger Fabric Read the Docs 1.4:] (https://hyperledger-fabric.readthedocs.io/en/release-1.4/)
 1. [Hyperledger Fabric Github repo](https://github.com/hyperledger/fabric)
 
-Background information to Blockchain is here: https://github.com/LennartFr/alf20191ibmbc/blob/master/background.md
+[Background information to Blockchain](background.md)
 
-Events that make use of this repo are listed here: https://github.com/LennartFr/alf20191ibmbc/blob/master/events.md 
+[Events that make use of this repo](https://github.com/LennartFr/alf20191ibmbc/blob/master/events.md) 
 
 [The Workshop is here:](/workshop.md)
 
