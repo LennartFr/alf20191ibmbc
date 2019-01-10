@@ -14,7 +14,7 @@ So let's start with <a href="https://hyperledger-fabric.readthedocs.io/en/releas
 We will also need to install <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/install.html#install-samples-binaries-and-docker-images">Binaries and Docker Images with curl</a>, see line below:
 
 ~~~~
-curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0  
+curl -sSL http://bit.ly/2ysbOFE | bash -s 1.4.0  
 ~~~~
 creates the directory fabric-samples and pulls down the following docker images:
 
