@@ -3,16 +3,16 @@
 
 # Some Background
 
-Kevin Werbach: The Blockchain and the New Architecture of Trust. MIT Press
-https://mitpress.mit.edu/books/blockchain-and-new-architecture-trust  
-
-
 To read:
 
 1. [Blockchain for Developers](https://cognitiveclass.ai/learn/blockchain-for-developers/)
 1. [Blockchain Essentials](https://cognitiveclass.ai/courses/blockchain-course/)
 1. [IBM Blockchain Foundation Developer](https://cognitiveclass.ai/courses/ibm-blockchain-foundation-dev)
-  
+
+[Kevin Werbach: The Blockchain and the New Architecture of Trust. MIT Press](
+https://mitpress.mit.edu/books/blockchain-and-new-architecture-trust)  
+
+
 # Satoshi Nakamoto's revolution in October 2008.
  
 October 2008 It all started with Satoshi Nakamoto and his paper [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf) which addressed a key problem in electronic commerce:
