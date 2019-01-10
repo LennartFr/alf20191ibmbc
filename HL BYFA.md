@@ -49,7 +49,7 @@ Which does the following:
 5 Generating anchor peer update for Org2MSP 
 ~~~~
 
-Followed by running <b>./byfn.sh up -l node</b> which brings up the Hyperledger artefacts on your laptop. Please check out the voluminous script outpu
+Followed by running <b>./byfn.sh up -l node</b> which brings up the Hyperledger network on your laptop. 
 
 ~~~~
 Build your first network (BYFN) end-to-end test
