@@ -82,6 +82,30 @@ The chaincode used is /fabric-samples/chaincode/chaincode_example02/node
 
 At the end of running the chaincode we do  ./byfn.sh down, to bring down the network.
 
+~~~~
+
+Stopping cli                    ... done
+Stopping peer0.org1.example.com ... done
+Stopping orderer.example.com    ... done
+Stopping peer1.org1.example.com ... done
+Stopping peer1.org2.example.com ... done
+Stopping peer0.org2.example.com ... done
+Removing orphan container "couchdb"
+Removing orphan container "ca.example.com"
+Removing cli                    ... done
+Removing peer0.org1.example.com ... done
+Removing orderer.example.com    ... done
+Removing peer1.org1.example.com ... done
+Removing peer1.org2.example.com ... done
+Removing peer0.org2.example.com ... done
+Removing network net_byfn
+
+~~~~
+
+
+
+
+
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 # Fabcar, your first application running on Hyperledger Fabric
@@ -115,9 +139,6 @@ We cd to fabric-samples/fabcar
 8. node registerUser.js
 9. node query.js
 ~~~~
-
-
-
 
 <img src="https://farm5.staticflickr.com/4525/26498674439_24631680fc_c.jpg" width="800" height="299" alt="Hyperledger helloworld">
 
@@ -156,9 +177,6 @@ In the invoke.js file, repeat with the changeCarOwner function.
 
 Let's cd to fabric-samples/chaincode/chaincode_example02/node:
 
-
-
-fabric-samples/chaincode/chaincode_example02/node
 
 
 
@@ -204,4 +222,4 @@ func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Respo
 }
  
 ~~~~
-By md]odifying the fabcar.go function we can change the ledger to accept our own data.
+By modifying the fabcar.go function we can change the ledger to accept our own data.
