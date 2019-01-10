@@ -7,18 +7,13 @@ Workshop URL: https://bit.ly/2F8CuND
 ## Breaking news 1/10/2019: Hyperledger Fabric v1.4 released in January 2019 with with a focus on production operations and developer ease of use. 
 
 To take this workshop you are supposed to have a basic understanding of Satoshi Nakamoto's key paper from 2008, Bitcoin: A Peer-to-Peer Electronic Cash System https://bitcoin.org/bitcoin.pdf as well as the open source Hyperledger
-Fabric. 
+Fabric: 
 
-The Hyperledger 1.4 repos can be found here:
-
-1. [Hyperledger Fabric Read the Docs 1.4:] (https://hyperledger-fabric.readthedocs.io/en/release-1.4/)
+1. [Hyperledger Fabric Read the Docs 1.4](https://hyperledger-fabric.readthedocs.io/en/release-1.4/)
 1. [Hyperledger Fabric Github repo](https://github.com/hyperledger/fabric)
-
-[Background information to Blockchain](background.md)
-
-[Events that make use of this repo](https://github.com/LennartFr/alf20191ibmbc/blob/master/events.md) 
-
-[The Workshop is here:](/workshop.md)
+1. [Background information to Blockchain](background.md)
+1. [Events that make use of this repo](https://github.com/LennartFr/alf20191ibmbc/blob/master/events.md) 
+1. [The Workshop is here:](/workshop.md)
 
 
 
