@@ -16,9 +16,11 @@ We will also need to install <a href="https://hyperledger-fabric.readthedocs.io/
 ~~~~
 curl -sSL http://bit.ly/2ysbOFE | bash -s 1.4.0  
 ~~~~
+
 creates the directory fabric-samples and pulls down the following docker images:
 
 ~~~~
+
 hyperledger/fabric-tools                                                                                             
 hyperledger/fabric-ccenv                                                                                                 hyperledger/fabric-orderer                                                                            
 hyperledger/fabric-peer                                                                                              
@@ -27,7 +29,8 @@ hyperledger/fabric-zookeeper
 hyperledger/fabric-kafka                                                                                              
 hyperledger/fabric-couchdb                                                                                            
 hyperledger/fabric-baseimage                                                                                     
-hyperledger/fabric-tools                                                                                                      ~~~~
+hyperledger/fabric-tools                                                                                                      
+~~~~
 
 Hyperledger is advancing quite quickly so the version number may well have changed by the time you see this article.
 The download will take a minute or two. The download will install a directory called fabric-samples. Take time to familiarize yourself with the Hyperledger docker images that you have downloaded.
