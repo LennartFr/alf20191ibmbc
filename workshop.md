@@ -2,17 +2,12 @@
 
 # The Workshop
 
-##
-
-## Make sure you have the right pre-reqs.
-
-So let's start with <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html#prerequisites"> the pre-reqs</a>
 ## Demo: [The Blockchain Bean](https://www.ibm.com/thought-leadership/blockchainbean/)
-## Exercise 0: [Blockchain Platform Playground](https://blockchaindevelop.mybluemix.net/login)
+## [pre-reqs]("https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html#prerequisites")
 ## Exercise 1: [Start bulding Hyperledger Fabric applications](HL%20BYFA.md)
 ## Exercise 2: [Develop a Node.js smart contract and web app for Global Finance with Blockchain](https://developer.ibm.com/patterns/global-financing-use-case-for-blockchain/)
-## Exercise 3: [The Marbles App](https://github.com/IBM-Blockchain/marbles)
-## Exercise 4: [IBM Blockchain Platform](https://www.ibm.com/blockchain/platform)
+## Exercise 3: [Commercial Paper Tutorial](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#commercial-paper-tutorial)
+## Exercise 3: [IBM Blockchain Platform](https://www.ibm.com/blockchain/platform)
 
 <img src="https://github.com/LennartFr/hyperlab20181018/blob/master/IBM%20Cloud%20Samples.png">
 
