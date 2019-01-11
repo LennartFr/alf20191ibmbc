@@ -229,6 +229,8 @@ export GOPATH+$HOME/go
 save and exit editor
 source ~/.bash_profile
 
+Open a new terminal window and check your $GOPATH is set using the env command:
+
 ~~~~
 
 
