@@ -5,9 +5,10 @@
 ## Demo: [The Blockchain Bean](https://www.ibm.com/thought-leadership/blockchainbean/)
 ## [pre-reqs]("https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html#prerequisites")
 ## Exercise 1: [Start bulding Hyperledger Fabric applications](HL%20BYFA.md)
-## Exercise 2: [Develop a Node.js smart contract and web app for Global Finance with Blockchain](https://developer.ibm.com/patterns/global-financing-use-case-for-blockchain/)
+## Exercise 2: [Start bulding Hyperledger Fabric applications](HL%20BYFA.md)
 ## Exercise 3: [Commercial Paper Tutorial](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#commercial-paper-tutorial)
-## Exercise 3: [IBM Blockchain Platform](https://www.ibm.com/blockchain/platform)
+## Exercise 2: [Develop a Node.js smart contract and web app for Global Finance with Blockchain](https://developer.ibm.com/patterns/global-financing-use-case-for-blockchain/)
+## Exercise 4: [IBM Blockchain Platform](https://www.ibm.com/blockchain/platform)
 
 <img src="https://github.com/LennartFr/hyperlab20181018/blob/master/IBM%20Cloud%20Samples.png">
 
