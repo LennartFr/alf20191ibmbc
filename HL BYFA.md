@@ -193,17 +193,19 @@ Let's cd to fabric-samples/chaincode/chaincode_example02/node:
 
 # Commercial Paper Tutorial
 
-[Commercial Paper Tutorial](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html)
+~~~~
 
-[Commercial Paper Github Repo](https://github.com/hyperledger/fabric-samples/tree/release-1.4/commercial-paper)
+1. Commercial Paper Tutorial https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html
 
-[Prerequisites](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#prerequisites)
+2. Commercial Paper Github Repo https://github.com/hyperledger/fabric-samples/tree/release-1.4/commercial-paper
 
-<a href="git clone https://github.com/hyperledger/fabric-samples.git">Git Clone Fabric Samples</a>
+3. Prerequisites https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#prerequisites
 
-[Create Network](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#create-network)
+4. Git clone Fabric samples: git clone https://github.com/hyperledger/fabric-samples.git 
 
+5. Create Network: https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#create-network
 
+~~~~
 
 
 
