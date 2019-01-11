@@ -199,7 +199,7 @@ Let's cd to fabric-samples/chaincode/chaincode_example02/node:
 
 [Prerequisites](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#prerequisites)
 
-[Git clone Fabric Samples](git clone https://github.com/hyperledger/fabric-samples.git)
+<a href="git clone https://github.com/hyperledger/fabric-samples.git">Git Clone Fabric Samples</a>
 
 [Create Network](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#create-network)
 
