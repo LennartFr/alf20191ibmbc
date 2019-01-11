@@ -210,7 +210,7 @@ $ ./start.sh
 
 
 Creating network "net_basic" with the default driver
-Creating ca.example.com      ... done
+Creating ca.example.com      ... done   //Certificate authority
 Creating orderer.example.com ... done
 Creating couchdb             ... done
 Creating peer0.org1.example.com ... done
