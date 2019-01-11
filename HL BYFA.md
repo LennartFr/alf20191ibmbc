@@ -1,7 +1,7 @@
 
 <img src="/Screen Shot 2018-12-30 at 08.48.23.png">
 
-## Your first steps on the way to building Hyperledger Fabric applications
+# [Bulding your first Hyperledger Fabric network](https://hyperledger-fabric.readthedocs.io/en/release-1.4/build_network.html#building-your-first-network)
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
