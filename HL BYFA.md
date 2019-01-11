@@ -208,6 +208,14 @@ Let's cd to fabric-samples/chaincode/chaincode_example02/node:
 $ cd fabric-samples/basic-network
 $ ./start.sh
 
+
+Creating network "net_basic" with the default driver
+Creating ca.example.com      ... done
+Creating orderer.example.com ... done
+Creating couchdb             ... done
+Creating peer0.org1.example.com ... done
+
+
 ~~~~
 
 
