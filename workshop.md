@@ -4,8 +4,9 @@
 
 ##
 
+## Make sure you have the right pre-reqs.
 
-
+So let's start with <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html#prerequisites"> the pre-reqs</a>
 ## Demo: [The Blockchain Bean](https://www.ibm.com/thought-leadership/blockchainbean/)
 ## Exercise 0: [Blockchain Platform Playground](https://blockchaindevelop.mybluemix.net/login)
 ## Exercise 1: [Start bulding Hyperledger Fabric applications](HL%20BYFA.md)
