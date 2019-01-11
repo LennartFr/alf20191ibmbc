@@ -201,11 +201,16 @@ Let's cd to fabric-samples/chaincode/chaincode_example02/node:
 
 3. Prerequisites https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#prerequisites
 
-4. Git clone Fabric samples: git clone https://github.com/hyperledger/fabric-samples.git 
+4. Git clone Fabric samples:  git clone https://github.com/hyperledger/fabric-samples.git
 
 5. Create Network: https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#create-network
 
+$ cd fabric-samples/basic-network
+$ ./start.sh
+
 ~~~~
+
+
 
 
 
