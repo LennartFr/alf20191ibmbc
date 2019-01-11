@@ -102,10 +102,6 @@ Removing network net_byfn
 
 ~~~~
 
-
-
-
-
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 # Fabcar, your first application running on Hyperledger Fabric
@@ -198,10 +194,11 @@ Let's cd to fabric-samples/chaincode/chaincode_example02/node:
 # Commercial Paper Tutorial
 
 [Commercial Paper Tutorial](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html)
+
 [Commercial Paper Github Repo](https://github.com/hyperledger/fabric-samples/tree/release-1.4/commercial-paper)
 
 [Prerequisites](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#prerequisites)
-[Git clone Fabric Sampes]($ git clone https://github.com/hyperledger/fabric-samples.git)
+[Git clone Fabric Sampes](git clone https://github.com/hyperledger/fabric-samples.git)
 [Create Network](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#create-network)
 
 
