@@ -218,7 +218,17 @@ Creating peer0.org1.example.com ... done
 
 ~~~~
 
+Setup GOPATH on the MAC:
 
+~~~~
 
+echo $SHELL
+
+Edit ~/.bash_profile
+export GOPATH+$HOME/go
+save ad exit editor
+source ~/.bash_profile
+
+~~~~
 
 
