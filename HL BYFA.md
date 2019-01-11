@@ -226,7 +226,7 @@ echo $SHELL
 
 Edit ~/.bash_profile
 export GOPATH+$HOME/go
-save ad exit editor
+save and exit editor
 source ~/.bash_profile
 
 ~~~~
