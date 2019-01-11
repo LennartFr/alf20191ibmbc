@@ -189,7 +189,9 @@ Let's cd to fabric-samples/chaincode/chaincode_example02/node:
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-# Commercial Paper Tutorial
+# Commercial Paper Tutorial 
+
+### [Commercial Paper Tutorial source](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#commercial-paper-tutorial)
 
 ~~~~
 
