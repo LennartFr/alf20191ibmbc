@@ -198,7 +198,9 @@ Let's cd to fabric-samples/chaincode/chaincode_example02/node:
 [Commercial Paper Github Repo](https://github.com/hyperledger/fabric-samples/tree/release-1.4/commercial-paper)
 
 [Prerequisites](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#prerequisites)
-[Git clone Fabric Sampes](git clone https://github.com/hyperledger/fabric-samples.git)
+
+[Git clone Fabric Samples](git clone https://github.com/hyperledger/fabric-samples.git)
+
 [Create Network](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#create-network)
 
 
