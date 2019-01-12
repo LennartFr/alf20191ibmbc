@@ -105,9 +105,10 @@ Removing network net_byfn
 ~~~~
 
 Arnes-MBP:node arnelennartfrantzell$ vim chaincode_example02.js 
-Arnes-MBP:node arnelennartfrantzell$ vim chaincode_example02.js 
+
+~~~~
 /*
-# Copyright IBM Corp. All Rights Reserved.
+Copyright IBM Corp. All Rights Reserved.
 #
 # SPDX-License-Identifier: Apache-2.0
 */
