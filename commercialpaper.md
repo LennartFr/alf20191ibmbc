@@ -4,6 +4,8 @@
 
 ### [Commercial Paper Tutorial source](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#commercial-paper-tutorial)
 
+<img src="https://hyperledger-fabric.readthedocs.io/en/release-1.4/_images/commercial_paper.diagram.1.png">
+
 ~~~~
 
 1. Commercial Paper Tutorial https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html
