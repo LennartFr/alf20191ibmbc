@@ -127,6 +127,8 @@ The Ledger is kept at all peers and, optionally, at a subset of orderers.
 
 <b>Orderer</b> is responsible for establishing consensus. It is a defined collective of nodes that orders transactions into a block. The ordering service exists independent of the peer processes and orders transactions on a first-come-first-serve basis for all channel’s on the network. The ordering service is designed to support pluggable implementations beyond the out-of-the-box SOLO and Kafka varieties. The ordering service is a common binding for the overall network; it contains the cryptographic identity material tied to each Member.
 
+### On-chain/off-chain
+
 ## Roles in developing Blockchain applications 	
 	
 <img src="Screen Shot 2019-01-10 at 09.20.40.png">
