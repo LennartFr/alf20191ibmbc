@@ -54,6 +54,13 @@ Source: https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf
 
 
 As Vinay Gupta writes in Harvard Business Business Review of March 6 2017, [The Promise of Blockchain is a World without Middlemen](https://hbr.org/2017/03/the-promise-of-blockchain-is-a-world-without-middlemen)
+
+<b>Why is it so important not to have a trusted thirs-party involved in Blockchain?</b>
+<a href="https://www.investopedia.com/articles/economics/09/lehman-brothers-collapse.asp">The collapse os Lehman Brothers</a>
+<i> On September 15, 2008, Lehman Brothers filed for bankruptcy. With $639 billion in assets and $619 billion in debt, Lehman's bankruptcy filing was the largest in history, as its assets far surpassed those of previous bankrupt giants such as WorldCom and Enron.Dec 11, 2017</i> 
+	
+	
+
 	
 ## Roles in developing Blockchain applications 	
 	
