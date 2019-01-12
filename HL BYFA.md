@@ -104,5 +104,68 @@ Removing network net_byfn
 
 ~~~~
 
+Arnes-MBP:node arnelennartfrantzell$ vim chaincode_example02.js 
+Arnes-MBP:node arnelennartfrantzell$ vim chaincode_example02.js 
 
+
+    let Bval = parseInt(Bvalbytes.toString());
+    // Perform the execution
+    let amount = parseInt(args[2]);
+    if (typeof amount !== 'number') {
+      throw new Error('Expecting integer value for amount to be transaferred');
+    }
+
+    Aval = Aval - amount;
+    Bval = Bval + amount;
+    console.info(util.format('Aval = %d, Bval = %d\n', Aval, Bval));
+
+    // Write the states back to the ledger
+    await stub.putState(A, Buffer.from(Aval.toString()));
+    await stub.putState(B, Buffer.from(Bval.toString()));
+
+  }
+
+  // Deletes an entity from state
+  async delete(stub, args) {
+    if (args.length != 1) {
+      throw new Error('Incorrect number of arguments. Expecting 1');
+    }
+
+    let A = args[0];
+
+    // Delete the key from the state in ledger
+    await stub.deleteState(A);
+  }
+
+  // query callback representing the query of a chaincode
+  async query(stub, args) {
+    if (args.length != 1) {
+      throw new Error('Incorrect number of arguments. Expecting name of the person to query')
+    }
+
+    let jsonResp = {};
+    let A = args[0];
+
+    // Get the state from the ledger
+    let Avalbytes = await stub.getState(A);
+    if (!Avalbytes) {
+      jsonResp.error = 'Failed to get state for ' + A;
+      throw new Error(JSON.stringify(jsonResp));
+    }
+
+    jsonResp.name = A;
+    jsonResp.amount = Avalbytes.toString();
+    console.info('Query Response:');
+    console.info(jsonResp);
+    return Avalbytes;
+  }
+};
+
+shim.start(new Chaincode());
+
+
+
+    
+
+~~~~
 
