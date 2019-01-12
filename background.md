@@ -70,7 +70,7 @@ As Vinay Gupta writes in Harvard Business Business Review of March 6 2017, [The 
 
 ### The Blockchain
 
-<img src="68747470733a2f2f6661726d352e737461746963666c69636b722e636f6d2f343439362f33373833333935333439365f666130333135343133395f6f2e706e67 (1).png">
+<img src="Screen Shot 2018-11-15 at 10.39.06.png">
 
 ## Docker images
 
