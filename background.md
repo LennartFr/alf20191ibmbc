@@ -59,12 +59,6 @@ As Vinay Gupta writes in Harvard Business Business Review of March 6 2017, [The 
 <a href="https://www.investopedia.com/articles/economics/09/lehman-brothers-collapse.asp">The collapse os Lehman Brothers</a>
 <i> On September 15, 2008, Lehman Brothers filed for bankruptcy. With $639 billion in assets and $619 billion in debt, Lehman's bankruptcy filing was the largest in history, as its assets far surpassed those of previous bankrupt giants such as WorldCom and Enron.Dec 11, 2017</i> 
 	
-	
-
-	
-## Roles in developing Blockchain applications 	
-	
-<img src="Screen Shot 2019-01-10 at 09.20.40.png">
 
 ## Linux Foundation's Hyperledger
 
@@ -132,3 +126,7 @@ The Ledger is kept at all peers and, optionally, at a subset of orderers.
 <b>Peer</b> A network entity that hosts the ledger and runs chaincode containers in order to perform read/write operations to the ledger. Peers are owned and maintained by members. The number of peers required to endorse a transaction is driven by the endorsement policy that is specified at chaincode deployment time.
 
 <b>Orderer</b> is responsible for establishing consensus. It is a defined collective of nodes that orders transactions into a block. The ordering service exists independent of the peer processes and orders transactions on a first-come-first-serve basis for all channel’s on the network. The ordering service is designed to support pluggable implementations beyond the out-of-the-box SOLO and Kafka varieties. The ordering service is a common binding for the overall network; it contains the cryptographic identity material tied to each Member.
+
+## Roles in developing Blockchain applications 	
+	
+<img src="Screen Shot 2019-01-10 at 09.20.40.png">
