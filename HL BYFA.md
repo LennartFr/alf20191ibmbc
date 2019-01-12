@@ -82,9 +82,12 @@ All GOOD, BYFN execution completed
 
 The chaincode used is /fabric-samples/chaincode/chaincode_example02/node
 
-At the end of running the chaincode we do  ./byfn.sh down, to bring down the network.
+
+## Step 4 At the end of the run we bring down the network 
 
 ~~~~
+
+./byfn.sh down
 
 Stopping cli                    ... done
 Stopping peer0.org1.example.com ... done
@@ -104,7 +107,7 @@ Removing network net_byfn
 
 ~~~~
 
-Arnes-MBP:node arnelennartfrantzell$ vim chaincode_example02.js 
+Let's look at the Chaincode used: Arnes-MBP: chaincode_example02.js 
 
 ~~~~
 /*
