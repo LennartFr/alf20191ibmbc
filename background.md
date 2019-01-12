@@ -34,7 +34,7 @@ https://en.wikipedia.org/wiki/Blockchain
 <p> 
 A distributed ledger is a type of database that is shared, replicated, and synchronized among the members of a network. The distributed ledger records the transactions, such as the exchange of assets or data, among the participants in the network.
 
-Participants in the network govern and agree by consensus on the updates to the records in the ledger. No central, third-party mediator, such as a financial institution or clearinghouse, is involved.
+Participants in the network govern and agree by consensus on the updates to the records in the ledger. <b> No central, third-party mediator, such as a financial institution or clearinghouse, is involved.</b>
 
 Every record in the distributed ledger has a timestamp and unique crytographic signature, thus making the ledger an auditable history of all transactions in the network. One implementation of distributed ledger technology is the open source Hyperledger Fabric blockchain.
 
