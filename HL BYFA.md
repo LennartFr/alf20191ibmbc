@@ -106,8 +106,31 @@ Removing network net_byfn
 
 Arnes-MBP:node arnelennartfrantzell$ vim chaincode_example02.js 
 Arnes-MBP:node arnelennartfrantzell$ vim chaincode_example02.js 
+/*
+# Copyright IBM Corp. All Rights Reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+*/
 
+const shim = require('fabric-shim');
+const util = require('util');
 
+var Chaincode = class {
+
+  // Initialize the chaincode
+  async Init(stub) {
+    console.info('========= example02 Init =========');
+    let ret = stub.getFunctionAndParameters();
+    console.info(ret);
+    let args = ret.params;
+    // initialise only if 4 parameters passed.
+    if (args.length != 4) {
+      return shim.error('Incorrect number of arguments. Expecting 4');
+    }
+
+    let A = args[0];
+    let B = args[2];
+    let Aval = args[1];
     let Bval = parseInt(Bvalbytes.toString());
     // Perform the execution
     let amount = parseInt(args[2]);
@@ -162,10 +185,6 @@ Arnes-MBP:node arnelennartfrantzell$ vim chaincode_example02.js
 };
 
 shim.start(new Chaincode());
-
-
-
-    
-
+ 
 ~~~~
 
