@@ -1,11 +1,11 @@
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-# Fabcar, wrirting your first application on the Hyperledger Fabric network
+# Fabcar, writing your first application on the Hyperledger Fabric network
 
-[Write your first app]()
+[Read the docs: Writing your first application: ](https://hyperledger-fabric.readthedocs.io/en/release-1.4/write_first_app.html#writing-your-first-application)
 
-If you haven't gone thru the [Build your first network portion of this workshop](https://github.com/LennartFr/alf20191ibmbc/blob/master/HL%20BYFA.md#build-your-first-hyperedger-fabric-network), you need to pull down the docker images with 
+If you haven't gone thru the [Build your first network portion of this workshop](https://github.com/LennartFr/alf20191ibmbc/blob/master/HL%20BYFA.md#build-your-first-hyperedger-fabric-network), you need to start by pulling down the docker images with curl:
 
 ~~~~
 curl -sSL http://bit.ly/2ysbOFE | bash -s 1.4.0  
