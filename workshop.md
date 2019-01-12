@@ -3,7 +3,7 @@
 # The Workshop
 
 ## Demo: [The Blockchain Bean](https://www.ibm.com/thought-leadership/blockchainbean/)
-## [pre-reqs]("https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html#prerequisites")
+## [Pre-reqs](https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html#prerequisites)
 ## Exercise 1: [Build your first Hyperedger Fabric Network](HL%20BYFA.md)
 ## Exercise 2: [Writing your first application](fabcar.md)
 ## Exercise 3: [Commercial Paper Tutorial](commercialpaper.md)
