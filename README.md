@@ -1,6 +1,6 @@
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-# Readme file
+# Hyperledger Fabric 1.4 Readme file
 
 Workshop URL: https://bit.ly/2F8CuND
 
