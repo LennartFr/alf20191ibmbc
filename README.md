@@ -4,7 +4,7 @@
 
 Workshop URL: https://bit.ly/2F8CuND
 
-## Breaking news 1/10/2019: Hyperledger Fabric v1.4 released in January 2019 with with a focus on production operations and developer ease of use. 
+## Breaking news 1/10/2019: Hyperledger Fabric v1.4 released in January 2019 with a focus on production operations and developer ease of use. 
 
 To take this workshop you are supposed to have a basic understanding of Satoshi Nakamoto's key paper from 2008, Bitcoin: A Peer-to-Peer Electronic Cash System https://bitcoin.org/bitcoin.pdf as well as the open source Hyperledger
 Fabric: 
