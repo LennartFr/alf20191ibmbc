@@ -7,6 +7,7 @@
 <img src="https://hyperledger-fabric.readthedocs.io/en/release-1.4/_images/commercial_paper.diagram.1.png">
 
 ~~~~
+0. Run a commercial paper smart contract with the IBM Blockchain VSCode extension: https://developer.ibm.com/tutorials/run-commercial-paper-smart-contract-with-ibm-blockchain-vscode-extension/
 
 1. Commercial Paper Tutorial https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html
 
