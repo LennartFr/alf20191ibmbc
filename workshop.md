@@ -7,11 +7,10 @@
 ## Exercise 1: [Build your first Hyperedger Fabric Network](HL%20BYFA.md)
 ## Exercise 2: [Writing your first application](fabcar.md)
 ## Exercise 3: [Writing Chaincode](chaincode.md)
-## Exercise 4: [Commercial Paper Tutorial](commercialpaper.md)
-## Exercise 4a: [Run a commercial paper smart contract with the IBM Blockchain VSCode extension](https://developer.ibm.com/tutorials/run-commercial-paper-smart-contract-with-ibm-blockchain-vscode-extension/)
+## Exercise 4: [Run a commercial paper smart contract with the IBM Blockchain VSCode extension](https://developer.ibm.com/tutorials/run-commercial-paper-smart-contract-with-ibm-blockchain-vscode-extension/)
 ## Exercise 5: [Develop a Node.js smart contract and web app for Global Finance with Blockchain](https://developer.ibm.com/patterns/global-financing-use-case-for-blockchain/)
-## Exercise 5a: [https://github.com/IBM/global-financing-blockchain/blob/master/README.md](Develop a Node.js smart contract and web app for a Global Finance with blockchain use case)
-## Exercise 6: [IBM Blockchain Platform](https://www.ibm.com/blockchain/platform)
+## Exercise 6: [https://github.com/IBM/global-financing-blockchain/blob/master/README.md](Develop a Node.js smart contract and web app for a Global Finance with blockchain use case)
+## Exercise 7: [IBM Blockchain Platform](https://www.ibm.com/blockchain/platform)
 
 <img src="https://github.com/LennartFr/hyperlab20181018/blob/master/IBM%20Cloud%20Samples.png">
 
