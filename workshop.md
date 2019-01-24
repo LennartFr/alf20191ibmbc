@@ -9,7 +9,7 @@
 ## Exercise 3: [Writing Chaincode](chaincode.md)
 ## Exercise 4: [Develop a Node.js smart contract and web app for Global Finance with Blockchain](https://developer.ibm.com/patterns/global-financing-use-case-for-blockchain/)
 ## Exercise 5: [Run a commercial paper smart contract with the IBM Blockchain VSCode extension](https://developer.ibm.com/tutorials/run-commercial-paper-smart-contract-with-ibm-blockchain-vscode-extension/)
-## Exercise 6: [Use IBM Blockchain Platform extension in VSCode to develop a Smart Contract](https://github.com/horeaporutiu/VSCodeTutorialBlockchain#use-ibm-blockchain-platform-extension-in-vscode-to-develop-a-smart-contract)
+## Exercise 6: [Use IBM Blockchain Platform extension in VSCode to develop a Smart Contract](https://github.com/horeaporutiu/VSCodeTutorialBlockchain#use-ibm-blockchain-platform-extension-in-vscode-to-develop-a-smart-contract)  
 ## Exercise 7: [How to quickly connect a Smart Contract to IBM Blockchain Platform Starter Plan using VSCode] 
 (https://github.com/horeaporutiu/VSCodeRemoteNetwork#vscoderemotenetwork) 
 ## Exercise 8:[IBM - IBM Blockchain Platform](https://www.ibm.com/blockchain/platform)
