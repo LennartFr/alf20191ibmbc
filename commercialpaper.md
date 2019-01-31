@@ -19,8 +19,11 @@ docker network prune ; docker volume prune
 
 ## Step 1 Get the Commercial Paper sample
 
+~~~~
+
 git clone https://github.com/hyperledger/fabric-samples
 
+~~~~
 
 <img src="https://hyperledger-fabric.readthedocs.io/en/release-1.4/_images/commercial_paper.diagram.1.png">
 
