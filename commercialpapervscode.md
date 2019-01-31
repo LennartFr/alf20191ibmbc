@@ -1,9 +1,8 @@
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-
-
-
 # Run a commercial paper smart contract with the IBM Blockchain VSCode extension 
+
+[Run a commercial paper smart contract with the IBM Blockchain VSCode extension](Run a commercial paper smart contract with the IBM Blockchain VSCode extension)
 
 ### [Commercial Paper Tutorial source](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#commercial-paper-tutorial)
 
