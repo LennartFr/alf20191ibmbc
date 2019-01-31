@@ -6,7 +6,21 @@
 
 ## [Commercial Paper Tutorial source](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#commercial-paper-tutorial)
 
-## 2 [Pre-requisites](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#prerequisites)
+## Step 0 [Pre-requisites](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#prerequisites)
+
+~~~~
+docker rm -f $(docker ps -aq)
+
+docker network prune ; docker volume prune
+
+docker network prune ; docker volume prune
+
+~~~~
+
+## Step 1 Get the Commercial Paper sample
+
+git clone https://github.com/hyperledger/fabric-samples
+
 
 <img src="https://hyperledger-fabric.readthedocs.io/en/release-1.4/_images/commercial_paper.diagram.1.png">
 
