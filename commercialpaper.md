@@ -2,7 +2,11 @@
 
 # Commercial Paper Tutorial 
 
+[https://developer.ibm.com/tutorials/run-commercial-paper-smart-contract-with-ibm-blockchain-vscode-extension/](By Paul O'Mahony | Published December 11, 2018 - Updated December 11, 2018)
+
 ### [Commercial Paper Tutorial source](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#commercial-paper-tutorial)
+
+[Pre-requisites] (https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#prerequisites)
 
 <img src="https://hyperledger-fabric.readthedocs.io/en/release-1.4/_images/commercial_paper.diagram.1.png">
 
@@ -13,7 +17,7 @@
 
 2. Commercial Paper Github Repo https://github.com/hyperledger/fabric-samples/tree/release-1.4/commercial-paper
 
-3. Prerequisites https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#prerequisites
+3.Prerequisites https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#prerequisites
 
 4. Git clone Fabric samples:  git clone https://github.com/hyperledger/fabric-samples.git
 
