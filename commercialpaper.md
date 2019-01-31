@@ -25,24 +25,23 @@ git clone https://github.com/hyperledger/fabric-samples
 
 ~~~~
 
-## Step 2 
-Explore the papercontract.js file, which is located in the lib subfolder. It effectively orchestrates the logic for the different smart contract transaction functions (issue, buy, redeem, etc.), and is underpinned by essential core functions (in the sample contract) that interact with the ledger. The link provided in the introduction section above explains the concepts, themes, and programmatic approach to writing contracts using the commercial paper scenario. Take some time to read that explainer and then resume here.
+## Step 2 Explore the papercontract.js file, which is located in the lib subfolder. 
+It effectively orchestrates the logic for the different smart contract transaction functions (issue, buy, redeem, etc.), and is underpinned by essential core functions (in the sample contract) that interact with the ledger. The link provided in the introduction section above explains the concepts, themes, and programmatic approach to writing contracts using the commercial paper scenario. Take some time to read that explainer and then resume here.
 
-## Step 3 
-Open the commercial paper contract
+## Step 3 Open the commercial paper contract
 
-### Step 3.1
-In VSCode, choose File > Open Folder, and select the contracts folder by navigating to the $HOME/fabric-samples/commercial-paper/organization/magnetocorp directory. This is your top-level project folder for this tutorial.
+### Step 3.1 In VSCode, choose File > Open Folder, 
+and select the contracts folder by navigating to the $HOME/fabric-samples/commercial-paper/organization/magnetocorp directory. This is your top-level project folder for this tutorial.
 Click on the Explorer icon (top left) and open the contract folder under $HOME/fabric-samples/commercial-paper/organization/magnetocorp/.
 
-### Step 3.2
-Click on the Explorer icon (top left) and open the contract folder under $HOME/fabric-samples/commercial-paper/organization/magnetocorp/.
+### Step 3.2 Click on the Explorer icon (top left) 
+and open the contract folder under $HOME/fabric-samples/commercial-paper/organization/magnetocorp/.
 
-### Step 3.3
-Explore the papercontract.js file, which is located in the lib subfolder. It effectively orchestrates the logic for the different smart contract transaction functions (issue, buy, redeem, etc.), and is underpinned by essential core functions (in the sample contract) that interact with the ledger. The link provided in the introduction section above explains the concepts, themes, and programmatic approach to writing contracts using the commercial paper scenario. Take some time to read that explainer and then resume here.
+### Step 3.3 Explore the papercontract.js file, 
+which is located in the lib subfolder. It effectively orchestrates the logic for the different smart contract transaction functions (issue, buy, redeem, etc.), and is underpinned by essential core functions (in the sample contract) that interact with the ledger. The link provided in the introduction section above explains the concepts, themes, and programmatic approach to writing contracts using the commercial paper scenario. Take some time to read that explainer and then resume here.
 
-### Step 3.4
-Go back to the contract folder by clicking on the folder name on the left in the VSCode Explorer. It’s important to do so before the next step.
+### Step 3.4 Go back to the contract folder 
+by clicking on the folder name on the left in the VSCode Explorer. It’s important to do so before the next step.
 
 ## Step 4. Package the smart contract
 
