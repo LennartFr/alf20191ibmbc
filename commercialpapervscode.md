@@ -2,9 +2,12 @@
 
 # Run a commercial paper smart contract with the IBM Blockchain VSCode extension 
 
-[Run a commercial paper smart contract with the IBM Blockchain VSCode extension](Run a commercial paper smart contract with the IBM Blockchain VSCode extension)
+[By Paul O'Mahony | Published December 11, 2018 - Updated December 11, 2018. Run a commercial paper smart contract with the IBM Blockchain VSCode extension](Run a commercial paper smart contract with the IBM Blockchain VSCode extension)
 
 ### [Commercial Paper Tutorial source](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#commercial-paper-tutorial)
+
+## Step 1: Setup
+
 
 <img src="https://hyperledger-fabric.readthedocs.io/en/release-1.4/_images/commercial_paper.diagram.1.png">
 
