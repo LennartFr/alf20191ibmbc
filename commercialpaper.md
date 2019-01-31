@@ -2,8 +2,7 @@
 
 # Commercial Paper Tutorial 
 
-[By Paul O'Mahony  Published December 11, 2018 - Updated December 11, 2018]
-(https://developer.ibm.com/tutorials/run-commercial-paper-smart-contract-with-ibm-blockchain-vscode-extension/)
+[By Paul O'Mahony  Published December 11, 2018 - Updated December 11, 2018](https://developer.ibm.com/tutorials/run-commercial-paper-smart-contract-with-ibm-blockchain-vscode-extension/)
 
 ## [Commercial Paper Tutorial source](https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html#commercial-paper-tutorial)
 
