@@ -9,6 +9,17 @@
 
 ## Step 2: [Launch VSCode and install the IBM Blockchain Platform extension for VSCode](https://developer.ibm.com/tutorials/run-commercial-paper-smart-contract-with-ibm-blockchain-vscode-extension/)
 
+## Step 3: In VSCode, open the commercial paper contract
+
+In VSCode, choose File > Open Folder, and select the contracts folder by navigating to the 
+$HOME/fabric-samples/commercial-paper/organization/magnetocorp directory. 
+This is your top-level project folder for this tutorial.
+
+
+
+
+
+
 
 <img src="https://hyperledger-fabric.readthedocs.io/en/release-1.4/_images/commercial_paper.diagram.1.png">
 
